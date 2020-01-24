@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>15729</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>26.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Ясная Поляна, дом 43, кв.                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата наличными при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Морозова Наталья</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375293730114</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>26.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            Шампунь Garnier Fructis SOS Восстановление укрепляющий, 250 мл.                                                    </td>
+                                                <td align="center">3600541285811</td>
+                        <td align="center">30</td>
+                        <td align="right" nowrap>3,73</td>
+                        <td align="right" nowrap>14,10</td>
+                        <td align="right" nowrap>111,90</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            FRUCTIS Бальзам-ополаскиватель Кокосовый баланс 200 мл                                                    </td>
+                                                <td align="center">3600541981003</td>
+                        <td align="center">30</td>
+                        <td align="right" nowrap>3,73</td>
+                        <td align="right" nowrap>14,10</td>
+                        <td align="right" nowrap>111,90</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Шампунь и бальзам-ополаскиватель 2в1 Dove Hair Therapy основной уход, 380 мл                                                    </td>
+                                                <td align="center">8714100717356</td>
+                        <td align="center">15</td>
+                        <td align="right" nowrap>7,03</td>
+                        <td align="right" nowrap>13,35</td>
+                        <td align="right" nowrap>105,45</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Бальзам-ополаскиватель Dove против секущихся кончиков                                                    </td>
+                                                <td align="center">4605922012641</td>
+                        <td align="center">12</td>
+                        <td align="right" nowrap>4,49</td>
+                        <td align="right" nowrap>6,84</td>
+                        <td align="right" nowrap>53,88</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Бальзам-ополаскиватель Dove Блеск и питание, 200 мл                                                    </td>
+                                                <td align="center">8714100708033</td>
+                        <td align="center">18</td>
+                        <td align="right" nowrap>4,49</td>
+                        <td align="right" nowrap>10,26</td>
+                        <td align="right" nowrap>80,82</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            CLEAR CARAT бальзам ополаскиватель  Интенсивное увлажнение  180 мл 67509254                                                    </td>
+                                                <td align="center">8714100737354</td>
+                        <td align="center">15</td>
+                        <td align="right" nowrap>6,69</td>
+                        <td align="right" nowrap>12,75</td>
+                        <td align="right" nowrap>100,35</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            Шампунь против перхоти Clear Vita Abe интенсивное увлажнение, 400 мл                                                    </td>
+                                                <td align="center">4605922008293</td>
+                        <td align="center">15</td>
+                        <td align="right" nowrap>7,34</td>
+                        <td align="right" nowrap>13,95</td>
+                        <td align="right" nowrap>110,10</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            TIMOTEI MEN Шампунь Прохлада и свежесть 250 мл                                                    </td>
+                                                <td align="center">8717644419540</td>
+                        <td align="center">15</td>
+                        <td align="right" nowrap>2,98</td>
+                        <td align="right" nowrap>5,70</td>
+                        <td align="right" nowrap>44,70</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            DOVE крем гель-душ Ритуал красоты Питание Авокадо и календула  250 мл                                                    </td>
+                                                <td align="center">8714100788646</td>
+                        <td align="center">20</td>
+                        <td align="right" nowrap>5,15</td>
+                        <td align="right" nowrap>13,20</td>
+                        <td align="right" nowrap>103,00</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            DOVE крем гель-душ Ритуал красоты Пробуждение Матча и сакура 250 мл                                                    </td>
+                                                <td align="center">8714100788585</td>
+                        <td align="center">20</td>
+                        <td align="right" nowrap>5,16</td>
+                        <td align="right" nowrap>13,00</td>
+                        <td align="right" nowrap>103,20</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            AXE гель для душа Голд 250 мл                                                    </td>
+                                                <td align="center">8714100918067</td>
+                        <td align="center">20</td>
+                        <td align="right" nowrap>5,00</td>
+                        <td align="right" nowrap>12,60</td>
+                        <td align="right" nowrap>100,00</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            ДРАКОША Подарочный набор Улетное купание (пена для купания 240 мл+шампунь 240 мл+зубная паста 60 мл)                                                    </td>
+                                                <td align="center">8714100718704</td>
+                        <td align="center">15</td>
+                        <td align="right" nowrap>8,05</td>
+                        <td align="right" nowrap>15,30</td>
+                        <td align="right" nowrap>120,75</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            Прокладки впитывающие для взрослых TENA Lady Normal 12 шт.                                                    </td>
+                                                <td align="center">7322540056761</td>
+                        <td align="center">70</td>
+                        <td align="right" nowrap>3,26</td>
+                        <td align="right" nowrap>29,40</td>
+                        <td align="right" nowrap>228,20</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Прокладки гигиенические Libresse Ultra Normal DUO с мягкой поверхностью, 20 шт.                                                    </td>
+                                                <td align="center">7322540245431</td>
+                        <td align="center">50</td>
+                        <td align="right" nowrap>4,01</td>
+                        <td align="right" nowrap>25,50</td>
+                        <td align="right" nowrap>200,50</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            DURU 1+1 крем-мыло активированный уголь 4*90 г                                                    </td>
+                                                <td align="center">8690506497316</td>
+                        <td align="center">10</td>
+                        <td align="right" nowrap>3,22</td>
+                        <td align="right" nowrap>4,10</td>
+                        <td align="right" nowrap>32,20</td>
+                    </tr>
+                                        <tr>
+                        <td>16</td>
+                        <td>
+                            DURU FRESH SENSATIONS мыло MOUNTAIN AIR  4*110г                                                    </td>
+                                                <td align="center">8690506494674</td>
+                        <td align="center">10</td>
+                        <td align="right" nowrap>4,52</td>
+                        <td align="right" nowrap>5,70</td>
+                        <td align="right" nowrap>45,20</td>
+                    </tr>
+                                        <tr>
+                        <td>17</td>
+                        <td>
+                            Део-шариковый Rexona Свежесть душа, 50 мл                                                    </td>
+                                                <td align="center">96003428</td>
+                        <td align="center">30</td>
+                        <td align="right" nowrap>3,80</td>
+                        <td align="right" nowrap>14,40</td>
+                        <td align="right" nowrap>114,00</td>
+                    </tr>
+                                        <tr>
+                        <td>18</td>
+                        <td>
+                            REXONA Део шариковый Антибактериальная свежесть мужской 50 мл                                                    </td>
+                                                <td align="center">46186270</td>
+                        <td align="center">30</td>
+                        <td align="right" nowrap>4,15</td>
+                        <td align="right" nowrap>15,90</td>
+                        <td align="right" nowrap>124,50</td>
+                    </tr>
+                                        <tr>
+                        <td>19</td>
+                        <td>
+                            DOSIA автомат Белый снег 3,7 кг.                                                    </td>
+                                                <td align="center">4607109401514</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>11,00</td>
+                        <td align="right" nowrap>4,20</td>
+                        <td align="right" nowrap>33,00</td>
+                    </tr>
+                                        <tr>
+                        <td>20</td>
+                        <td>
+                            Средство моющее синтетическое порошкообразное для стирки: порошок для стирки Dosia Optima Color 4кг                                                    </td>
+                                                <td align="center">4640018993206</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>14,58</td>
+                        <td align="right" nowrap>5,55</td>
+                        <td align="right" nowrap>43,74</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">431</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 1 967,39 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

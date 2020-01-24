@@ -1,0 +1,144 @@
+<?php
+$common = 'margin:0;padding:0;border:0;';
+$a = 'text-decoration:none;';
+$td = 'vertical-align:top;border-collapse:collapse;';
+$purpleBorder = 'background-color:#bc91e1;';
+$blueBorder = 'background-color:#67d8e5;';
+$diagnosticsProductsDesc = 'width: 135px;font-size:12px;line-height:15px;text-align:left;';
+$diagnosticsText = 'font-family:\'HelveticaNeue\',Helvetica,Arial,sans-serif;';
+$diagnosticsProductsPrice = 'font-size:12px;text-align:left;font-weight:600;';
+$diagnosticsProductsBtnWr = 'text-align:right;';
+$diagnosticsProductsBtn = 'font-size: 12px;font-weight:600;text-align:right;text-transform:uppercase;';
+$purpleColor = 'color:#bc91e1;';
+$blueColor = 'color:#67d8e5;';
+$db = 'display:block;';
+$diagnosticsSetText = 'font-size:18px;font-weight:600;line-height:36px;';
+$diagnosticsSetBtnWr = 'border:1px solid #000;background-color:#000;padding-top:10px;padding-bottom:10px;text-align:center;';
+$diagnosticsSetBtn = 'text-transform:uppercase;background-color:black;color:white;text-align:center;font-size:13px;letter-spacing:.1rem;';
+?>
+
+<table style="margin: 0 48px;">
+    <tr>
+        <td style="<?php echo "$common $td" ?>">
+            <table>
+                <tr>
+                    <?php
+                        $sum = 0;
+                        $i = 0;
+                        $firstAvailableProduct = null;
+                        $availableProductIds = [];
+                        $products = $this->getProducts();
+                    ?>
+                    <?php foreach ($products as $product): ?>
+                    <?php
+                        $i++;
+                        $isSaleable = $this->helper('oggetto_catalog/product')->isSaleable($product);
+                        $inStockQty = (int) Mage::getModel('cataloginventory/stock_item')->loadByProduct($product)->getQty();
+                        $isProfessional = $this->helper('professional')->isProfessionalCustomer() || !$this->helper('professional')->isProfessionalProduct($product);
+                        $isAvailable = !$product->isConfigurable() && !$product->getOutOfProduction() && $isProfessional && ($isSaleable && $inStockQty);
+                    ?>
+                    <td style="<?php echo "$common $td" ?>">
+                        <table>
+                            <tr>
+                                <td style="<?php echo "$common $td" ?>">
+                                    <a href="<?php echo $product->getProductUrl() ?>" style="<?php echo $a ?>">
+                                        <img width="161" src="<?php echo $this->helper('adaptiveResize/image')->init($product, 'image', $product->getImage())->resize(230, 320) ?>"/>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="<?php echo "$common $td" ?>">
+                                    <table style="border-collapse: collapse;">
+                                        <tr>
+                                            <td style="<?php echo "$common $td " . ($i % 2 ? $purpleBorder : $blueBorder) ?>">
+                                                    <img src="<?php echo $this->getSkinUrl('img/email/spacer.gif') ?>" height="1" width="4"/>
+                                            </td>
+                                            <td style="<?php echo "$common $td" ?>">
+                                                <img src="<?php echo $this->getSkinUrl('img/email/spacer.gif') ?>" height="1" width="8"/>
+                                            </td>
+                                            <td style="<?php echo "$common $td" ?>">
+                                                <table style="border-collapse: collapse;">
+                                                    <tr>
+                                                        <td style="<?php echo "$common $td" ?>">
+                                                            <table style="border-collapse: collapse;">
+                                                                <tr>
+                                                                    <td style="<?php echo "$common $td $diagnosticsProductsDesc $diagnosticsText" ?> height: 77px;"><?php echo $product->getName() ?></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="<?php echo "$common $td" ?>">
+                                                                        <table width="100%">
+                                                                            <tr>
+                                                                                <td style="<?php echo "$common $td $diagnosticsText $diagnosticsProductsPrice" ?>"><?php echo round($this->helper('tax')->getPrice($product, $product->getFinalPrice())) ?> р</td>
+                                                                                <td style="<?php echo "$common $td $diagnosticsProductsBtnWr" ?>">
+                                                                                    <?php if ($isAvailable): ?>
+                                                                                        <?php $sum += $this->helper('tax')->getPrice($product, $product->getFinalPrice()); if ($firstAvailableProduct) $availableProductIds[] = $product->getId(); else $firstAvailableProduct = $product; ?>
+                                                                                        <a 
+                                                                                           href="<?php echo $this->helper('checkout/cart')->getAddUrl($product, ['nocookie' => 1, Mage_Core_Controller_Varien_Action::PARAM_NAME_URL_ENCODED => null]) ?>"
+                                                                                            style="<?php echo "$a $diagnosticsProductsBtn $diagnosticsText " . ($i % 2 ? $purpleColor : $blueColor) ?>">
+                                                                                            Купить</a>
+                                                                                    <?php else: ?>
+                                                                                        <a 
+                                                                                           href="<?php echo $product->getProductUrl() ?>"
+                                                                                           style="<?php echo "$a $diagnosticsProductsBtn $diagnosticsText " . ($i % 2 ? $purpleColor : $blueColor) ?>">
+                                                                                            Посмотреть</a>
+                                                                                    <?php endif ?>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <?php if ($i % 3 == 0 && $i != count($products)): ?></tr><tr><?php endif ?>
+                    <?php endforeach ?>
+                </tr>
+                <tr>
+                    <td style="<?php echo "$common $td" ?>">
+                        <img 
+                             width="1" height="40" src="<?php echo $this->getSkinUrl('img/email/spacer.gif') ?>" style="<?php echo $db ?>">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table style="margin: 0 51px;">
+    <tr>
+        <td style="<?php echo "$common $td" ?>">
+            <p style="<?php echo "$common $diagnosticsText $diagnosticsSetText" ?>">Стоимость набора: <?php echo round($sum) ?> р</p>
+        </td>
+        <td style="<?php echo "$common $td" ?>">
+            <img src="<?php echo $this->getSkinUrl('img/email/spacer.gif') ?>" height="1" width="30"/>
+        </td>
+        <td style="<?php echo "$common $td" ?>">
+            <table style="border-collapse: collapse" width="230">
+                <tr>
+                    <td style="<?php echo "$common $td $diagnosticsSetBtnWr" ?>" colspan="2" rowspan="2">
+                        <a 
+                            href="<?php echo $this->helper('checkout/cart')->getAddUrl($firstAvailableProduct, ['nocookie' => 1, 'related_product' => implode(',', $availableProductIds), Mage_Core_Controller_Varien_Action::PARAM_NAME_URL_ENCODED => null]) ?>"
+                            style="<?php echo "$a $diagnosticsText $diagnosticsSetBtn" ?>">Купить весь набор</a>
+                    </td>
+                    <td  height="5px"></td>
+                </tr>
+                <tr style="height: 10px">
+                    <td style="background: #67d8e5; width: 10px"></td>
+                </tr>
+                <tr style="height: 10px">
+                    <td style="width: 10px"></td>
+                    <td style="background: #67d8e5"></td>
+                    <td style="background: #67d8e5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

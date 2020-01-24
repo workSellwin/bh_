@@ -1,0 +1,29 @@
+<?php
+    $product = $this->getProduct();
+    if (!$product) return;
+
+    $imgUrl = $this->helper('adaptiveResize/image')->init($product, 'image', $product->getImage())
+        ->keepTransparency(false)
+        ->backgroundColor([255, 255, 255])
+        ->resize(230, 320);
+
+    $isSaleable = $this->helper('oggetto_catalog/product')->isSaleable($product);
+    $inStockQty = (int) Mage::getModel('cataloginventory/stock_item')->loadByProduct($product)->getQty();
+    $isProfessional = $this->helper('professional')->isProfessionalCustomer() || !$this->helper('professional')->isProfessionalProduct($product);
+    $isAvailable = !$product->isConfigurable() && !$product->getOutOfProduction() && $isProfessional && ($isSaleable && $inStockQty);
+?>
+
+<span class="diagnostics-result__product-popin js-diagnostics-popin <?php if (!$isAvailable): ?>_wide<?php endif ?>">
+    <a href="<?php echo $product->getProductUrl() ?>" target="_blank">
+        <img class="diagnostics-result__product-img" src="<?php echo $imgUrl ?>" alt="" />
+    </a>
+    <?php echo str_replace('<p', '<span', str_replace('</p>', '</span>', str_replace('div', 'span', $this->getParentBlock()->getPriceHtml($product, true)))) ?>
+    <?php if ($isAvailable): ?>
+        <a href="<?php echo $this->helper('checkout/cart')->getAddUrl($product) ?>"
+           data-keep-scroll="true" data-use-on-mobile="true"
+           class="diagnostics-result__product-buy js-add-to-cart">Купить</a>
+    <?php else: ?>
+        <a href="<?php echo $product->getProductUrl() ?>" target="_blank"
+           class="diagnostics-result__product-buy">Посмотреть</a>
+    <?php endif ?>
+</span>

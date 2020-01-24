@@ -1,0 +1,144 @@
+.nav-main-lnks-my {
+	display: inline-block;
+	vertical-align: middle;
+	clear: none;
+	border-bottom: none;
+	font-size: 15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.nav-main-lnks-my .dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown .dropdown-body{
+	display: none;
+	width: 300px;
+	position: absolute;
+	border: 1px solid red;
+}
+
+.nav-main-lnks-my .dropdown:first-child a {
+	border-left: 0!important;
+}
+.nav-main-lnks-my a {
+	border-left: 1px solid #fff!important;
+	text-transform: uppercase;
+	padding: 5px 14px;
+}
+.nav-main-lnks-my .open:hover dropdown-body{
+	display: block;
+}
+
+
+
+
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	transition: .3s linear;
+}
+.topmenu > li {
+	float: left;
+	position: relative;
+	border-left: 1px solid black;
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li:first-child a {border-left: 0!important;}
+.topmenu > li > a {
+	padding: 5px 14px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FEFDFD;
+	margin-bottom: 0
+}
+
+.topmenu > li > a.active,
+.submenu a:hover {
+	color: #000000;
+	background: #ffffff;
+}
+.topmenu .fa,
+.submenu .fa {
+	margin-left: 5px;
+	color: inherit;
+}
+.submenu {
+	position: absolute;
+	top: 31px;
+	z-index: 5;
+	min-width: 200px;
+	background: white;
+	border-top: 1px solid #CBCBCC;
+	visibility: hidden;
+	opacity: 0;
+	transform-origin: 0% 0%;
+	transform: rotateX(-90deg);
+	transition: .3s linear;
+}
+.submenu li {position: relative;}
+.submenu li a {
+	color: #ffffff;
+	padding: 10px 20px;
+	font-size: 13px;
+	border-bottom: 1px solid #CBCBCC;
+	background: #000000;
+	border-left: none!important;
+	text-align: left;
+}
+.submenu .submenu {
+	position: absolute;
+	left: 100%;
+	top: -1px;
+	transition: .3s linear;
+}
+nav li:hover > .submenu {
+	transform: rotateX(0deg);
+	visibility: visible;
+	opacity: 1;
+}
+
+@media only screen and (max-width: 1199px) {
+	.nav-main-lnks-my {
+		display: none;
+	}
+
+	.nav-main-lnks{
+		display: block!important;
+	}
+}
+
+@media only screen and (min-width: 1340px) {
+	.h__nav_fixed .nav-main-lnks-my {
+		margin-top: 11px!important;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.nav-main-lnks-my {
+		display: inline-block;
+		vertical-align: middle;
+		clear: none;
+		border-bottom: none;
+		font-size: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+}
+
+
+

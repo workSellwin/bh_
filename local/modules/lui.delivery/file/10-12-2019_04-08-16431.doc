@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>16431</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>10.12.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Полевая ул., дом 15, кв.                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата банковской картой при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Василец Дарья</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375293240155</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>10.12.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            DOVE лосьон для тела с маслами манго и марулы, обновляющий 250 мл                                                    </td>
+                                                <td align="center">8710908779558</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,74</td>
+                        <td align="right" nowrap>7,62</td>
+                        <td align="right" nowrap>1,74</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Крем-гель для душа Dove &quot;Масло Ши и пряная ваниль&quot;, 250 мл                                                    </td>
+                                                <td align="center">8711600886063</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,03</td>
+                        <td align="right" nowrap>4,50</td>
+                        <td align="right" nowrap>1,03</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            CIF Крем чистящий Максимальный эффект 450 мл                                                    </td>
+                                                <td align="center">8714100738887</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>4,18</td>
+                        <td align="right" nowrap>0,96</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            L`Oreal Professionnel Serie Expert Absolut Repair Lipidium Gold Quinoa+Protein Маска интенсивная 500 мл                                                    </td>
+                                                <td align="center">3474636730834</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>31,13</td>
+                        <td align="right" nowrap>2,34</td>
+                        <td align="right" nowrap>31,13</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            L'Oreal Professionnel Serie Expert Vitamino Шампунь 1500 мл                                                    </td>
+                                                <td align="center">3474636807260</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>47,99</td>
+                        <td align="right" nowrap>3,61</td>
+                        <td align="right" nowrap>47,99</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            Туалетная бумага Zewa Плюс Свежесть Океана, 2 слоя, 4 рулона                                                    </td>
+                                                <td align="center">4605331017305</td>
+                        <td align="center">4</td>
+                        <td align="right" nowrap>2,06</td>
+                        <td align="right" nowrap>0,60</td>
+                        <td align="right" nowrap>8,24</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            Средство для удаления жира Frosch &quot;грейпфрут&quot;, 500 мл.                                                    </td>
+                                                <td align="center">4001499112942</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,82</td>
+                        <td align="right" nowrap>1,32</td>
+                        <td align="right" nowrap>3,82</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Таблетки очищающие для Посудомоечной машины Frosch, 30 шт.                                                    </td>
+                                                <td align="center">4009175191908</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>14,32</td>
+                        <td align="right" nowrap>1,08</td>
+                        <td align="right" nowrap>14,32</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            Освежитель воздуха Glade Эффект свежести &quot;Родниковая свежесть&quot;, 275 мл.                                                    </td>
+                                                <td align="center">4620000430964</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,37</td>
+                        <td align="right" nowrap>0,56</td>
+                        <td align="right" nowrap>7,37</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            Средство для чистки мебели Pronto алое вера, 500 мл.                                                    </td>
+                                                <td align="center">4620000432067</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,59</td>
+                        <td align="right" nowrap>0,50</td>
+                        <td align="right" nowrap>6,59</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            REXONA Подарочный набор Максимальная свежесть+бутылка 2017 (део.аэр.150 мл+гель для душа 250 мл)                                                    </td>
+                                                <td align="center">8714100921500</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>2,46</td>
+                        <td align="right" nowrap>21,48</td>
+                        <td align="right" nowrap>4,92</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            DOVE лосьон для тела с маслом авокадо и экстрактом календулы Пробуждающий 250 мл                                                    </td>
+                                                <td align="center">8710908777110</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,74</td>
+                        <td align="right" nowrap>7,62</td>
+                        <td align="right" nowrap>1,74</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">16</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 129,85 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

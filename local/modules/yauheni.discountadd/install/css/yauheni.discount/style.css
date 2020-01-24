@@ -1,0 +1,113 @@
+.bx-gadgets {
+    width: 303px;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 rgba(142, 142, 142, .07);
+    color: #333;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: box-shadow 0.2s linear;
+    margin: 0 5px 5px 0;
+}
+
+.bx-gadgets:hover {
+    box-shadow: 0 5px 12px 1px rgba(60, 82, 95, .55);
+
+}
+
+.bx-gadgets-top-wrap a {
+    text-decoration: none;
+    color: #6A7C8A;
+    font-size: 14px;
+    line-height: 20px;
+    height: 30px;
+    text-shadow: 0 1px 0 white;
+}
+
+.bx-gadgets-content {
+    border-color: rgba(60, 82, 95, .55);
+    position: relative;
+    overflow: hidden;
+    padding: 8px 8px;
+    border: 1px solid;
+    border-color: #c6cfd1 #c6cfd1 #c8d1d3;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+    box-shadow: inset 0 1px 0 #e5e5e5;
+    transition: border-color 0.2s linear;
+    zoom: 1;
+}
+
+.bx-gadgets-top-wrap {
+    border: 1px solid;
+    border-color: #bcc5c6 #aab2b3 #a9a9a9;
+    border-radius: 4px 4px 0 0;
+    background: #e8eff1;
+    background-image: -webkit-linear-gradient(top, #e0eaec, #e5ecef);
+    background-image: linear-gradient(top, #e0eaec, #e5ecef);
+    box-shadow: inset 0 1px 0 #fff, inset 0 0 0 1px #e9f0f2;
+    cursor: move;
+    padding: 7px 10px;
+    position: relative;
+}
+
+.bx-gadgets-top-button {
+    background: #e8eff1;
+    background-image: -webkit-linear-gradient(top, #e0eaec, #e5ecef);
+    background-image: linear-gradient(to bottom, #e0eaec, #e5ecef);
+    overflow: hidden;
+    opacity: 1;
+    width: 20px;
+    right: 10px;
+    top: 10px;
+    -webkit-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;
+    display: inline-block;
+    position: absolute;
+}
+
+.bx-gadgets-top-title {
+    color: #6A7C8A;
+    text-shadow: 0 1px 0 white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.bx-gadgets-top-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.form-filter {
+    margin: 0 0 20px 3px;
+}
+#visual_discounts {
+    position: relative;
+}
+
+
+
+
+
+.sort-ol
+{
+    list-style-type:none;
+    margin:0;
+    width:100%;
+    border: 1px solid #a4b9cc;
+    padding: 5px;
+}
+.sort-ol li {
+  margin: 2px;
+  padding: 0.4em;
+    display: inline-block;
+}
+
+.adm-workarea select[multiple], .adm-workarea select[size] {
+    min-height: 35px;
+    height: 70px;
+}

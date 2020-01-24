@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>16626</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>17.12.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        12.00-13.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ платно - Экспресс доставка по г. Минску                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                переулок софьи ковалевской, дом 60, кв.833                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата наличными при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Екатерина</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375333406179</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>17.12.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            La Roche-Posay Effaclar Мини-набор (гель DUO+15 мл + гель 50 мл)                                                    </td>
+                                                <td align="center">4690214117227</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>13,97</td>
+                        <td align="right" nowrap>1,86</td>
+                        <td align="right" nowrap>13,97</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Redken Extreme Набор 2020 (шампунь 300 мл+кондиционер 250 мл)                                                    </td>
+                                                <td align="center">4690214547130</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>40,45</td>
+                        <td align="right" nowrap>5,33</td>
+                        <td align="right" nowrap>40,45</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Redken Colour Extend Blondage Набор 2020 (Шампунь 300 мл + Кондиционер 250 мл)                                                    </td>
+                                                <td align="center">4690214547154</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>40,45</td>
+                        <td align="right" nowrap>5,33</td>
+                        <td align="right" nowrap>40,45</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            L`Oreal Professionnel Набор Source Essentielle НГ Daily 2019 (Шампунь 300 мл + Кондиционер 200 мл)                                                    </td>
+                                                <td align="center">4690214536042</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>42,35</td>
+                        <td align="right" nowrap>5,59</td>
+                        <td align="right" nowrap>42,35</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            L`Oreal Professionnel Набор SERIE EXPERT НГ Volumetry 2019 (Шампунь 300 мл + Кондиционер 200 мл)                                                    </td>
+                                                <td align="center">4690214534352</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>30,42</td>
+                        <td align="right" nowrap>4,01</td>
+                        <td align="right" nowrap>30,42</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            La Roche-Posay ГИАЛУ B5 Набор (Сыворотка увлажняющая Гиалу В5 30 мл+Крем для контура глаз Гиалу В5 15 мл -50%)                                                    </td>
+                                                <td align="center">4690214469609</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>99,65</td>
+                        <td align="right" nowrap>13,13</td>
+                        <td align="right" nowrap>99,65</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            Biolage Колорласт Набор Зима 19-20 (Шампунь 250 мл + Кондиционер 200 мл)                                                    </td>
+                                                <td align="center">4690214499880</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>27,18</td>
+                        <td align="right" nowrap>3,58</td>
+                        <td align="right" nowrap>27,18</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Biolage Вольюмблум Набор Зима 19-20 (Шампунь 250 мл + Кондиционер 200 мл)                                                    </td>
+                                                <td align="center">4690214499835</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>27,18</td>
+                        <td align="right" nowrap>3,58</td>
+                        <td align="right" nowrap>27,18</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            Matrix Total Results Новогодний Набор Холодный Блонд 2020 (Шампунь 300 мл + Кондиционер 300 мл)                                                    </td>
+                                                <td align="center">4690214516037</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>20,89</td>
+                        <td align="right" nowrap>2,76</td>
+                        <td align="right" nowrap>20,89</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            Matrix Total Results Новогодний Набор High Amplify 2020 (Шампунь 300 мл + Кондиционер 300 мл                                                    </td>
+                                                <td align="center">4690214516020</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>20,89</td>
+                        <td align="right" nowrap>2,76</td>
+                        <td align="right" nowrap>20,89</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Kerastase Набор новогодний Resistance 2019 (шампунь-ванна 250 мл+молочко 200 мл+термо-уход 150 мл)                                                    </td>
+                                                <td align="center">3474636819485</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>108,60</td>
+                        <td align="right" nowrap>14,32</td>
+                        <td align="right" nowrap>108,60</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            Kerastase Набор новогодний Reflection 2019 (шампунь-ванна 250 мл+маска 200 мл)                                                    </td>
+                                                <td align="center">4690214536004</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>80,84</td>
+                        <td align="right" nowrap>10,67</td>
+                        <td align="right" nowrap>80,84</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            VICHY НАБОР МИНЕРАЛ 89                                                    </td>
+                                                <td align="center">4690214586702</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>71,31</td>
+                        <td align="right" nowrap>9,40</td>
+                        <td align="right" nowrap>71,31</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            LIBREDERM Набор подарочный Сила полевых цветов herbal care                                                    </td>
+                                                <td align="center">4620002189167</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>24,60</td>
+                        <td align="right" nowrap>3,24</td>
+                        <td align="right" nowrap>24,60</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            VICHY Набор IDEALIA (крем дневной 50мл+бальзам ночной 50мл+косметичка В ПОДАРОК)                                                    </td>
+                                                <td align="center">4690214476621</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>142,22</td>
+                        <td align="right" nowrap>18,75</td>
+                        <td align="right" nowrap>142,22</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">15</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 791,00 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                Товар для видео. Товар вернется на склад. Привезти до 13 00              
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

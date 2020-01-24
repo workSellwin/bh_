@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>16311</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.12.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        12.00-18.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Рафиева, дом 54а, кв.49                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата банковской картой при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Екатерина</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375296839895</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.12.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            ПРОМОНАБОР Zewa Плюс БЕЛАЯ 2 cлойная туалетная бумага 12 рул. 2 шт.                                                    </td>
+                                                <td align="center">4812194011399</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,32</td>
+                        <td align="right" nowrap>3,61</td>
+                        <td align="right" nowrap>8,32</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 8MM 90 мл.                                                    </td>
+                                                <td align="center">3474630326880</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 10G 90 мл.                                                    </td>
+                                                <td align="center">3474630324381</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Matrix Socolor Beauty Extra.Coverage Крем-краска для волос 509N 90 мл.                                                    </td>
+                                                <td align="center">3474636362325</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Matrix Socolor Beauty Extra.Coverage Крем-краска для волос 509G 90 мл.                                                    </td>
+                                                <td align="center">3474630324725</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            Маска для волос Garnier Fructis Рост во всю силу, 300 мл.                                                    </td>
+                                                <td align="center">3600541791848</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,05</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>7,05</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            FRUCTIS Бальзам-ополаскиватель SOS восстановление 387 мл                                                    </td>
+                                                <td align="center">3600542115988</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,39</td>
+                        <td align="right" nowrap>0,41</td>
+                        <td align="right" nowrap>5,39</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            FRUCTIS Шампунь Огуречная Свежесть 400 мл                                                    </td>
+                                                <td align="center">3600541970809</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,38</td>
+                        <td align="right" nowrap>0,40</td>
+                        <td align="right" nowrap>5,38</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            LIBREDERM Крем гиалуроновый увлажняющий для лица, шеи и области декольте 50 мл                                                    </td>
+                                                <td align="center">4620002182526</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>23,82</td>
+                        <td align="right" nowrap>1,79</td>
+                        <td align="right" nowrap>23,82</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            LIBREDERM Крем гиалуроновый ночной Гидробаланс 50 мл                                                    </td>
+                                                <td align="center">4620002185879</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>23,55</td>
+                        <td align="right" nowrap>1,77</td>
+                        <td align="right" nowrap>23,55</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Diplona шампунь YOUR REPAIR PROFI 600 мл                                                    </td>
+                                                <td align="center">4003583135653-1</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>11,12</td>
+                        <td align="right" nowrap>0,84</td>
+                        <td align="right" nowrap>11,12</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            TONE Ватные диски 120 шт                                                    </td>
+                                                <td align="center">4600999023675</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,63</td>
+                        <td align="right" nowrap>0,12</td>
+                        <td align="right" nowrap>1,63</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            L'Oreal  Тушь для ресниц ВВОЛЮМИССИМ GOLD черная                                                    </td>
+                                                <td align="center">3600522050537</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,54</td>
+                        <td align="right" nowrap>1,66</td>
+                        <td align="right" nowrap>8,54</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Кондиционер для белья Frosch &quot;Миндальное молочко&quot;, 1 л.                                                    </td>
+                                                <td align="center">4001499193255</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,34</td>
+                        <td align="right" nowrap>0,33</td>
+                        <td align="right" nowrap>4,34</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            Маска для лица Garnier Чистая кожа распаривающая 2х6 мл, 12 мл.                                                    </td>
+                                                <td align="center">3600540211835</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,50</td>
+                        <td align="right" nowrap>0,66</td>
+                        <td align="right" nowrap>2,50</td>
+                    </tr>
+                                        <tr>
+                        <td>16</td>
+                        <td>
+                            DOVE Глиняная маска с маслом косточек винограда и лавандой 50 мл                                                    </td>
+                                                <td align="center">8714100808269</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,79</td>
+                        <td align="right" nowrap>1,65</td>
+                        <td align="right" nowrap>4,79</td>
+                    </tr>
+                                        <tr>
+                        <td>17</td>
+                        <td>
+                            FROSCH ZERO% Средство жидкое для стирки концентрированное Сенситив 1,5л                                                    </td>
+                                                <td align="center">4009175947659</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>15,83</td>
+                        <td align="right" nowrap>1,19</td>
+                        <td align="right" nowrap>15,83</td>
+                    </tr>
+                                        <tr>
+                        <td>18</td>
+                        <td>
+                            Средство для мытья посуды Frosch Baby &quot;Десткое&quot;, 500 мл.                                                    </td>
+                                                <td align="center">4001499908347</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,50</td>
+                        <td align="right" nowrap>0,26</td>
+                        <td align="right" nowrap>3,50</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">18</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 164,36 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+//@import (reference) "mixin_var.less";
+//@import (reference) "fonts.less";
+
+//html {
+//    font-size: 62.5%;
+//
+//
+//    @media @tablet {
+//        font-size: 52.5%;
+//    }
+//
+//
+//}
+
+#promo-loreal {
+    background: #fff;
+    font-family: 'PTSans', sans-serif;
+    color: #000;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-perspective-origin: top left;
+    overflow-x: hidden;
+
+    @media @mobile {
+        transition: transform .3s;
+        min-height: 100%;
+    }
+
+    .main-container-w {
+        position: relative;
+    }
+
+    .main-container {
+        &:extend(.clearfix all);
+        margin: 0 auto;
+        position: relative;
+        box-sizing: content-box;
+        padding-bottom: 330px;
+
+        height: auto;
+        min-height: ~"calc(100vh - 334px)";
+
+        @media @tablet {
+            min-height: ~"calc(100vh - 304px)";
+        }
+
+        @media @mobile {
+            padding-bottom: 350px;
+            min-height: ~"calc(100vh - 546px)";
+        }
+
+        @media @mobile640 {
+            min-height: ~"calc(100vh - 628px)";
+        }
+    }
+
+    .narrow-container {
+        max-width: 1215px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        @media @mobile {
+            padding: 0 30px;
+        }
+
+        @media @tablet {
+            padding: 0 65px;
+        }
+    }
+
+    .main  {
+        &:extend(.clearfix all);
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+        cursor: pointer;
+        background-color: transparent;
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    a.link {
+        color: @red;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            color: @red;
+            border-bottom-color: @red;
+        }
+
+        &_underline {
+            text-decoration: underline;
+            &:hover {
+                border-bottom: 0;
+            }
+        }
+
+        &_black {
+            color: @black;
+        }
+    }
+
+    // from normalize
+    input {
+        line-height: normal;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        padding: 0;
+    }
+
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    button[disabled],
+    input[disabled] {
+        cursor: default;
+    }
+
+    button,
+    input[type="reset"],
+    input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+
+    button,
+    select {
+        text-transform: none;
+    }
+
+    button {
+        overflow: visible;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+    }
+
+    svg:not(:root) {
+        overflow: hidden;
+    }
+
+    img {
+        border: 0;
+    }
+
+    b,
+    strong {
+        font-weight: bold;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    [hidden],
+    template {
+        display: none;
+    }
+}

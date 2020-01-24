@@ -1,0 +1,23 @@
+.instagram-slider-container .slick-prev {
+    left: -50px;
+}
+
+.instagram-slider-container .slick-next {
+    right: -50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .instagram-slider-container .slick-next {
+        background-position: -163px -70px;
+        right: 0px;
+    }
+    .instagram-slider-container .slick-prev {
+        left: 0px;
+        background-position: -163px -84px;
+    }
+    .instagram-slider-container .slick-prev, .instagram-slider-container .slick-next {
+        width: 7px;
+        height: 12px;
+        margin-top: -6px;
+    }
+}

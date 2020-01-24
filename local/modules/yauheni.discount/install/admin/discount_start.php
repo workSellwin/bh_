@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/local/modules/yauheni.discount/admin/discount_start.php");?>

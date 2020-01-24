@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>15350</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>16.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        12.00-18.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                академика Купревича ул., дом 14, кв.                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата банковской картой при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Анастасия Кабушева</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375447109342</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>16.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            REXONA Дезодорант аэр. деоконтроль для ног Активная свежесть 150 мл                                                    </td>
+                                                <td align="center">8714100703526</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>6,49</td>
+                        <td align="right" nowrap>0,98</td>
+                        <td align="right" nowrap>12,98</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            SUNLIGHT Средство для мытья посуды Белый чай 400 мл                                                    </td>
+                                                <td align="center">8934868127109</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>1,78</td>
+                        <td align="right" nowrap>2,36</td>
+                        <td align="right" nowrap>3,56</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            SUNLIGHT Средство для мытья посуды Апельсин 400 мл                                                    </td>
+                                                <td align="center">8934868127130</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,78</td>
+                        <td align="right" nowrap>1,18</td>
+                        <td align="right" nowrap>1,78</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Ополаскиватель для посудомоечной машины Finish Блеск и защита, 400 мл.                                                    </td>
+                                                <td align="center">4607109403549</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,85</td>
+                        <td align="right" nowrap>0,52</td>
+                        <td align="right" nowrap>6,85</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Средство чистящее для сливных труб в гранулах Rorax, 60 г.                                                    </td>
+                                                <td align="center">4001499168314</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>1,54</td>
+                        <td align="right" nowrap>0,36</td>
+                        <td align="right" nowrap>4,62</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            Активный гель против трудных засоров Mr.Muscle, 500 мл.                                                    </td>
+                                                <td align="center">5010182992760</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,57</td>
+                        <td align="right" nowrap>0,57</td>
+                        <td align="right" nowrap>7,57</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            Средство чистящее для пола Glorix &quot;Свежесть атлантики&quot;, 1 л                                                    </td>
+                                                <td align="center">8711600362079</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,46</td>
+                        <td align="right" nowrap>0,34</td>
+                        <td align="right" nowrap>4,46</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Бальзам для губ &quot;Чистая линия&quot; 3-в-1: питание, увлажнение, смягчение ромашка                                                    </td>
+                                                <td align="center">4600702083613</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,31</td>
+                        <td align="right" nowrap>0,17</td>
+                        <td align="right" nowrap>2,31</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            L'Oreal DERMO EXPERTISE Мицеллярная вода БИФАЗНАЯ с маслами 400 мл                                                    </td>
+                                                <td align="center">3600523461158</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>11,43</td>
+                        <td align="right" nowrap>2,02</td>
+                        <td align="right" nowrap>11,43</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            LOVE BEAUTY AND PLANET гель для душа Чайное дерево и ветивер 400мл                                                    </td>
+                                                <td align="center">8714100794449</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,82</td>
+                        <td align="right" nowrap>1,95</td>
+                        <td align="right" nowrap>7,82</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            L'Oreal ГИАЛУРОН ЭКСПЕРТ Крем для лица дневной SPF20                                                    </td>
+                                                <td align="center">3600523775675</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>11,58</td>
+                        <td align="right" nowrap>2,04</td>
+                        <td align="right" nowrap>11,58</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            L'Oreal Paris Ночная крем-маска &quot;Гиалурон Эксперт&quot;, 50 мл                                                    </td>
+                                                <td align="center">3600523775620</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>11,58</td>
+                        <td align="right" nowrap>2,04</td>
+                        <td align="right" nowrap>11,58</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            FROSCH Жидкое мыло Ухаживающее &quot;Малина&quot;, 500 мл                                                    </td>
+                                                <td align="center">4001499948534</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,08</td>
+                        <td align="right" nowrap>0,77</td>
+                        <td align="right" nowrap>3,08</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Помада для губ Kiki Matte lip color  208                                                    </td>
+                                                <td align="center">7262701202081</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,30</td>
+                        <td align="right" nowrap>0,25</td>
+                        <td align="right" nowrap>3,30</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">18</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 92,92 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                Прошу привезти заказ в промежутке времени 13.00-16.00.             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

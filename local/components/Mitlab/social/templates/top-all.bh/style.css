@@ -1,0 +1,15 @@
+.top-desc-social{
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	position: relative;
+	padding-right: 20px;
+}
+@media screen and (max-width: 1245px){
+	.top-desc-social{
+		padding-right: 5px;
+	}
+	body .h__top-delivery{
+		margin-left:5px;
+	}
+}

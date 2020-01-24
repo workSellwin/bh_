@@ -1,0 +1,27 @@
+[name="ORDER_PROP_29"]{
+	display:none;
+}
+[for="soa-property-29"]{
+	width:500px;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .h__search-field_open {
+        width: 250px;
+    }
+}
+.product_desc_text{
+text-align:justify
+}
+.product_desc_text p, .product_desc_text ul{
+padding:0.25em 0
+}
+.product_desc_text ul{
+padding-left:2.5em !important
+}
+
+
+footer  a {
+    color: #ffff;
+}

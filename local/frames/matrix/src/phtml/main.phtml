@@ -1,0 +1,118 @@
+<?php
+$questions = [
+    [
+        'has_images' => true,
+        'question' => 'Какие у тебя волосы?',
+        'answers' => [
+            'Светлые окрашенные',
+            'Тёмные окрашенные',
+            'Светлые натуральные',
+            'Тёмные натуральные'
+        ],
+        'img_width' => 143
+    ],[
+        'is_slider' => true,
+        'question' => 'Какая у тебя длина<br class="_thin"> волос?',
+        'answers' => [
+            'Короткие',
+            'Средние',
+            'Длинные'
+        ],
+        'img_width' => 159
+    ],[
+        'is_slider' => true,
+        'question' => 'Как часто ты моешь голову?',
+        'answers' => [
+            'Каждый день',
+            'Через день',
+            'Два раза в неделю',
+            'Раз в неделю или реже'
+        ],
+        'img_width' => 184
+    ],[
+        'question' => 'Как часто ты используешь<br>термо-инструменты<br class="_thin"> (фен/плойка/утюжок)?',
+        'answers' => [
+            'Не использую',
+            'Использую, но редко',
+            'Без них никак!'
+        ],
+        'img_width' => 182,
+        'animation' => 'wind'
+    ],[
+        'question' => 'Как быстро сохнут твои волосы после мытья?',
+        'answers' => [
+            'Быстро, через 30 минут волосы абсолютно сухие',
+            'Длина сохнет быстро, а&nbsp;корни сушу феном',
+            'Один-два часа',
+            'Долго, всегда приходится использовать фен'
+        ],
+        'img_width' => 136,
+        'animation' => 'rain'
+    ],[
+        'question' => 'Возьми волос и проведи по&nbsp;нему<br class="_wide"> пальцами. Какой<br class="_thin"> он на ощупь?',
+        'answers' => [
+            'Гладкий по всей длине, а&nbsp;на кончике небольшие шероховатости',
+            'Гладкий, имеет блеск, без&nbsp;шероховатостей',
+            'Шероховатость по&nbsp;всей&nbsp;длине'
+        ],
+        'img_width' => 156,
+        'animation' => [
+            'rough',
+            'straight',
+            'zigzag'
+        ]
+    ], [
+        'question' => 'Твои волосы электризуются?',
+        'answers' => [
+            'Я не сталкивалась с такой проблемой',
+            'Редко, может только в&nbsp;зимнее время',
+            'Часто, в зимнее время особенно',
+            'Я постоянно мучаюсь от&nbsp;этого'
+        ],
+        'img_width' => 146,
+        'animation' => 'lightning'
+    ],[
+        'question' => 'Вьются ли твои волосы?',
+        'answers' => [
+            'Я кудряшка',
+            'Мои волосы немного завиваются',
+            'У меня прямые волосы'
+        ],
+        'img_width' => 157,
+        'animation' => [
+            'curlyStrong',
+            'curlyLight',
+            'straight'
+        ]
+    ],[
+        'question' => 'По твоему мнению, чего больше всего<br class="_wide"> не хватает твоим волосам?',
+        'answers' => [
+            'Холодного оттенка, хочу избавиться от желтизны',
+            'Блеска и гладкости',
+            'Объема и густоты',
+            'Качественного ухода и&nbsp;восстановления'
+        ],
+        'img_width' => 149,
+        'animation' => 'star'
+    ]
+];
+?>
+
+<div class="diagnostics-animation js-diagnostics-animation">
+</div>
+
+<div class="diagnostics-border js-diagnostics-border">
+    <?php $text = str_repeat('Диагностика волос &bull; ', 100) ?>
+    <div class="diagnostics-border__strip diagnostics-border__strip_top"><span><?php echo $text ?></span></div>
+    <div class="diagnostics-border__strip diagnostics-border__strip_right"><span><?php echo $text ?></span></div>
+    <div class="diagnostics-border__strip diagnostics-border__strip_bottom"><span><?php echo $text ?></span></div>
+    <div class="diagnostics-border__strip diagnostics-border__strip_left"><span><?php echo $text ?></span></div>
+</div>
+
+<div class="diagnostics__wrapper" id="diagnosticsWrapper">
+    <?php foreach ($questions as $i => $item): ?>
+    <?php echo $this->getChild('question')->setData(array_merge($item, ['number' => $i + 1]))->toHtml() ?>
+    <?php endforeach ?>
+
+    <?php echo $this->getChildHtml('result') ?>
+</div>

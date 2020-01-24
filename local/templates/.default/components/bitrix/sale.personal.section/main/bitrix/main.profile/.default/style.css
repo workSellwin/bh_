@@ -1,0 +1,7 @@
+.bx_profile{
+	text-align: center;
+}
+.bx_profile li {
+    display: inline-block;
+    vertical-align: top;
+}

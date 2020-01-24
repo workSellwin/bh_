@@ -1,0 +1,133 @@
+<?php
+/** @var Oggetto_PromoAction_Block_Diagnostics $this */
+$skus = [
+    '3474630740259', // шампунь Хай Амплифай
+    '3474630740853', // шампунь Колор Обсэссд
+    '3474630741133', // шампунь Соу Лонг Дэмэдж
+    '3474636265558', // шампунь Мойсчер Ми Рич
+    '3474630741751', // шампунь Хэллоу Блонди
+    '3474630740716', // шампунь Мега Слик
+
+    '3474630740327', // кондиционер Хай Амплифай
+    '3474630740921', // кондиционер Колор Обсэссд
+    '3474630741218', // кондиционер Соу Лонг Дэмэдж
+    '3474636265572', // кондиционер Мойсчер Ми Рич
+    '3474630741829', // кондиционер Хэллоу Блонди
+    '3474630740785', // кондиционер Мега Слик
+
+    '884486227799', // Хэллоу Блонди Флеш Филлер
+    '884486320193', // Блонд х3
+    '884486227911', // Колор Обс Миракл Трит 12
+    '884486225504', // Брейк Фикс
+    '3474630741584', // спрей Мойсчер Ми Рич
+    '884486226709', // ВандерБуст, Рутлифтер
+    '884486235633', // Мега Слик Термозащита, спрей Айро Смусер
+
+    '3474630741355', // шампунь Тэксчер Геймс
+    '3474630741362', // кондиционер Тэксчер Геймс
+
+    '3474630740990', // шампунь Кёрл Плиз
+    '3474630741065', // кондиционер Кёрл Плиз
+
+    '3474636484805', // шампунь Хол Блонд
+
+    '3474636454426', // ОВ Укрепление
+    '3474636454402', // ОВ Разглаж-ее
+    '3474636454419', // ОВ Защита цвета
+
+    '884486225641', // Пена Хай Амплифай
+    '3474636265596', // Маска Колор Обсессед
+    '3474636265602', // Маска Соу Лонг
+
+    '3474636597833', // РеБонд шампунь
+    '3474636597857', // РеБонд кондиционер
+    '884486354266', // Миракл Креэйтр
+
+    '884486203090', // Heat Buffer
+
+    // popins
+    '884486082473', // масло Эксвизит Оил
+    '3474636597895', // Пре-кондиционер Re-Bond
+    '884486227591', // лосьон Curl Please Contouring Lotion
+    '884486227553', // гель Curl Please Super Defrizzer,
+    '3474630741713', // So Silver
+];
+
+$this->preloadProducts($skus);
+?>
+
+<div class="js-diagnostics-slide diagnostics-result" style="display: none" data-save-url="<?php echo $this->getUrl('promo_action/diagnostic/add') ?>">
+    <div class="diagnostics-result__inner-container">
+        <div class="diagnostics-result__header-container js-diagnostics-result-header">
+            <p class="diagnostics-result__big-header">Твой результат<br>диагностики волос</p>
+        </div>
+
+        <?php echo $this->getChildHtml('texts') ?>
+
+        <a href="#" class="diagnostics-result__repeat js-diagnostics-result-repeat">Пройти тест заново</a>
+    </div>
+    <div class="diagnostics-result__strip-wr">
+        <p class="diagnostics-result__strip js-strip"><?php echo str_repeat('Тебе подойдёт | ', 100) ?></p>
+    </div>
+
+    <div class="diagnostics-result__products-container">
+        <?php foreach ($skus as $sku): ?>
+            <?php
+                $product = $this->getBySku($sku);
+                if (!$product) continue;
+
+                $isSaleable = $this->helper('oggetto_catalog/product')->isSaleable($product);
+                $inStockQty = (int) Mage::getModel('cataloginventory/stock_item')->loadByProduct($product)->getQty();
+                $isProfessional = $this->helper('professional')->isProfessionalCustomer() || !$this->helper('professional')->isProfessionalProduct($product);
+                $isAvailable = !$product->isConfigurable() && !$product->getOutOfProduction() && $isProfessional && ($isSaleable && $inStockQty);
+            ?>
+            <div class="diagnostics-result__product js-diagnostics-product"
+                 data-sku="<?php echo $product->getSku() ?>"
+                 data-price="<?php echo $this->helper('tax')->getPrice($product, $product->getFinalPrice()) ?>"
+                 data-id="<?php echo $product->getId() ?>"
+                 data-is-available="<?php echo (int) $isAvailable ?>">
+                <a href="<?php echo $product->getProductUrl() ?>" target="_blank">
+                    <img src="<?php echo $this->helper('adaptiveResize/image')->init($product, 'image', $product->getImage())->resize(230, 320) ?>"
+                         alt="<?php echo $product->getName() ?>" class="diagnostics-result__product-image">
+                </a>
+                <div class="diagnostics-result__product-description">
+                    <p class="diagnostics-result__product-text js-clamping"><?php echo $product->getName() ?></p>
+                    <?php echo $this->getPriceHtml($product, true) ?>
+
+                    <?php if ($isAvailable): ?>
+                        <a href="<?php echo $this->helper('checkout/cart')->getAddUrl($product) ?>"
+                           data-keep-scroll="true" data-use-on-mobile="true"
+                           data-origin-title="Купить"
+                           class="diagnostics-result__product-buy js-add-to-cart">Купить</a>
+                    <?php else: ?>
+                        <a href="<?php echo $product->getProductUrl() ?>"
+                           target="_blank"
+                           class="diagnostics-result__product-buy">Посмотреть</a>
+                    <?php endif ?>
+                </div>
+            </div>
+        <?php endforeach ?>
+    </div>
+
+    <div class="diagnostics-result__inner-container">
+        <div class="diagnostics-result__group-buy">
+            <span class="diagnostics-result__group-buy-title js-buy-all-price">Стоимость <span class="_wide">всего</span> набора: <?php echo $this->getPriceHtml($product->setFinalPrice(0), true) ?></span>
+            <a href="<?php echo $this->helper('checkout/cart')->getAddUrl($product->setId('main_product_id'), ['related_product' => 'related_product_ids']) ?>"
+               data-keep-scroll="true" data-use-on-mobile="true"
+               data-origin-title="Купить весь набор"
+               class="diagnostics-result__group-buy-btn js-add-to-cart js-buy-all">Купить весь набор</a>
+        </div>
+
+        <div class="diagnostics-result__mailing-container">
+            <p class="diagnostics-result__mailing-title">Получи расширенную рекомендацию и&nbsp;промокод на&nbsp;скидку&nbsp;20%</p>
+
+            <form class="diagnostics-result__mailing-form" id="diagnosticsResultMailingForm" action="<?php echo $this->getUrl('promo_action/diagnostic/send') ?>" method="post">
+                <input type="email" placeholder="Введи свой email" name="email" class="diagnostics-result__mailing-input" required id="diagnosticsResultMailingEmail">
+                <div class="diagnostics-result__mailing-btn">
+                    <span class="_label _regular">Отправить</span>
+                    <button type="submit" class="_label _success" id="diagnosticsSubmitBtn">Отправлено</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>14702</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>29.10.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Яна Райниса, дом 1а, кв.52                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата на сайте банковской картой</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Якимова Виктория</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375297275277</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>29.10.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            La Roche-Posay Effaclar AI Крем 15 мл                                                    </td>
+                                                <td align="center">3337875609593</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>49,30</td>
+                        <td align="right" nowrap>8,70</td>
+                        <td align="right" nowrap>49,30</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            L'Oreal  Тушь для ресниц ОБЪЕМ МИЛЛИОНА РЕСНИЦ ФЕЛИН Взгляд кошки экстрачерный                                                    </td>
+                                                <td align="center">3600523110674</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>20,49</td>
+                        <td align="right" nowrap>2,28</td>
+                        <td align="right" nowrap>20,49</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            RL Гель для бровей  Brow This Way Brow Styling Gel with Argan Oil, тон 004                                                    </td>
+                                                <td align="center">3614223345656</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,91</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>8,91</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            MAYBELLINE COLOR TATTOO Tени для век 24ч 60 Черный на все времена                                                    </td>
+                                                <td align="center">3600530777648</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,70</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>8,70</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            VICHY DERCOS NUTRIENTS Шампунь Витамин                                                    </td>
+                                                <td align="center">3337875595674</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>40,50</td>
+                        <td align="right" nowrap>4,50</td>
+                        <td align="right" nowrap>40,50</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            VICHY DERCOS Шампунь-уход безсульфатный для сухих волос 200 мл                                                    </td>
+                                                <td align="center">3337875486736</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>36,90</td>
+                        <td align="right" nowrap>4,10</td>
+                        <td align="right" nowrap>36,90</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            VICHY DERMABLEND Пудра компактная матирующая SPF25, тон 35                                                     </td>
+                                                <td align="center">3337875563048</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>75,60</td>
+                        <td align="right" nowrap>8,40</td>
+                        <td align="right" nowrap>75,60</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            La Roche Posay Rosaliac UV Leger Крем для лица 40 мл                                                    </td>
+                                                <td align="center">3337872413322</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>70,00</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>70,00</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            KIKI Гель-лак для ногтей 9                                                    </td>
+                                                <td align="center">7262701486092</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,62</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>4,62</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            KIKI Гель-лак для ногтей 22                                                    </td>
+                                                <td align="center">7262701486221</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,62</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>4,62</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Средство для удаления кутикулы Kiki &quot;Кутикулы - нет&quot; 10 мл                                                    </td>
+                                                <td align="center">7262701450307</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,28</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>4,28</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            La Roche-Posay Effaclar К+ Эмульсия для лица для жирной кожи 40 мл                                                    </td>
+                                                <td align="center">3337875613491</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>45,05</td>
+                        <td align="right" nowrap>7,95</td>
+                        <td align="right" nowrap>45,05</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            La Roche-Posay Cicaplast Бальзам-барьер для губ 7,5 мл                                                    </td>
+                                                <td align="center">30106659</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>20,50</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>20,50</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">13</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 389,47 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1200px){
+    .gmi-gift-hover:hover{
+        position: relative;
+        z-index: 3;
+    }
+    .gmi-gift-hover:hover .prod__hiden{
+        display: block;
+    }
+    .gmi-gift-hover:hover .prod-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.product__col, .brands__col, .certificates__col {
+
+    margin-bottom: 55px!important;
+
+    margin-top: 7px!important;
+}
+.prod-other__slider_new .slick-prev {
+    left: -20px;
+}
+.prod-other__slider_new .slick-next {
+    right: -20px;
+}
+.prod-other__slider_new .slick-track {
+    height: 575px!important;
+}
+
+@media only screen and (max-width: 767px) {
+    .prod-other__slider_new .slick-prev {
+        top: 115px;
+    }
+    .prod-other__slider_new .slick-next {
+        top: 115px;
+    }
+}

@@ -1,0 +1,50 @@
+@narrow: ~"only screen and (max-width: 1180px)";
+
+#promo-loreal {
+    .narrow-container {
+        max-width: 1020px;
+        box-sizing: content-box;
+        padding: 0 80px;
+
+        @media @mobile640 {
+            max-width: 240px;
+            padding: 0;
+        }
+    }
+
+    &:not(._diagnostics-results) {
+        .main-container {
+            max-height: ~"calc(100vh - 144px)";
+
+            @media only screen and (max-height: 600px) {
+                max-height: 600px - 144px;
+            }
+
+            @media @mobile {
+                max-height: none;
+            }
+        }
+    }
+
+    .main-container-wrapper {
+        box-sizing: content-box;
+        padding-bottom: 190px;
+        overflow: hidden;
+
+        @media @mobile {
+            padding-bottom: 350px;
+        }
+    }
+
+    .std {
+        display: none;
+    }
+
+    .main-container-w {
+        min-height: 0;
+    }
+
+    @media @mobile {
+        background: none;
+    }
+}

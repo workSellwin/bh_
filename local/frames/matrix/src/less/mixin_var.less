@@ -1,0 +1,344 @@
+//----------Z-INDEX----------//
+@z-index1: 10;
+@z-index2: 20;
+@z-index3: 30;
+@z-index4: 40;
+@z-index5: 50;
+@z-index6: 60;
+@z-index7: 70;
+@z-index8: 80;
+@z-index9: 90;
+@z-index10: 100;
+@z-index11: 105;
+
+//----------Colors----------//
+@validate-color: #e52138;
+
+@default: #333;
+@white: #fff;
+@black: #000;
+@gray: #333;
+@red: #cd1d2c;
+@silver: #707070;
+
+// Colors Dark
+@gray-dark: #262626;
+@red-dark: #bf1b29;
+@silver-dark: #4e4e4e;
+
+// Colors Light
+@gray-light: #ccc;
+@black-light: #191919;
+
+// Colors Medium
+@gray-medium: #888;
+
+// Colors for new design of home page
+@block-bg1: rgba(252, 134, 146, .8);
+@block-bg2: rgba(188, 145, 225, .8);
+@pink: #fd868d;
+@blue: rgba(103 ,216 ,229, .8);
+@red-dark-new: #d5000f;
+
+//Biolage
+@green: #93bb54;
+@almostBlack: rgba(0, 0, 0, .9);
+@almostGray: rgba(141, 141, 141, 0.9);
+@lightGreen: #9bc55a;
+
+// Links Color
+//@color-link: #ccc;
+//@color-link-hover: #e5e5e5;
+
+@border-color: #e5e5e5;
+
+// Buttons background
+
+// Validation
+@color-validation: #e52138;
+
+// Breakpoints
+@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)", ~"only screen and (min--moz-device-pixel-ratio: 1.5)", ~"only screen and (-o-min-device-pixel-ratio: 3/2)", ~"only screen and (min-device-pixel-ratio: 1.5)";
+@mobile: ~"only screen and (max-width: 767px)";
+@mobile640: ~"only screen and (max-width: 640px)";
+@mobile480: ~"only screen and (max-width: 480px)";
+@mobile360: ~"only screen and (max-width: 360px)";
+@mobile320: ~"only screen and (max-width: 320px)";
+
+@tablet: ~"only screen and (max-width: 1024px) and (min-width: 768px)";
+@tabletPortrait: ~"only screen and (max-width: 980px) and (min-width: 768px)";
+@desktop: ~"only screen and (min-width: 1025px)";
+@mediumDesktop: ~"only screen and (max-width: 1440px) and (min-width: 1025px)";
+@narrowDesktop: ~"only screen and (max-width: 1360px) and (min-width: 1025px)";
+@smallDesktop: ~"only screen and (max-width: 1100px) and (min-width: 1025px)";
+@noMobile: ~"only screen and (min-width: 768px)";
+@noDesktop: ~"only screen and (max-width: 1024px)";
+@large: ~"only screen and (min-width: 1470px)";
+
+.clearfix {
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom: 1;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.placeholder(@rules) {
+    &::-webkit-input-placeholder {
+        @rules();
+    }
+    &:-moz-placeholder {
+        @rules();
+    }
+    &::-moz-placeholder {
+        @rules();
+    }
+    &:-ms-input-placeholder {
+        @rules();
+    }
+}
+
+.box-shadow(@shadow) {
+    -webkit-box-shadow: @shadow;
+    -moz-box-shadow: @shadow;
+    box-shadow: @shadow;
+}
+
+#promo-loreal {
+    .hide-on-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: none;
+    }
+
+    .only-tablet {
+        display: none;
+    }
+
+    .only-retina {
+        display: none;
+    }
+
+    ._centered {
+        text-align: center;
+    }
+
+    ._right-align {
+        text-align: right;
+    }
+
+    ._hidden {
+        display: none;
+    }
+
+    ._forcedly-hidden {
+        display: none !important;
+    }
+
+    ._not-visible {
+        visibility: hidden;
+    }
+
+    ._disable {
+        pointer-events: none;
+    }
+
+    ._loaded {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    ._centered {
+        text-align: center;
+    }
+}
+
+.rotate(@deg) {
+    -webkit-transform: rotate(@deg);
+    -moz-transform: rotate(@deg);
+    -ms-transform: rotate(@deg);
+    -o-transform: rotate(@deg);
+    transform: rotate(@deg);
+}
+
+.transition (@transition) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -ms-transition: @transition;
+    -o-transition: @transition;
+    transition: @transition;
+}
+
+.translate(@x, @y) {
+    -webkit-transform: translate(@x, @y);
+    -moz-transform: translate(@x, @y);
+    -ms-transform: translate(@x, @y);
+    -o-transform: translate(@x, @y);
+    transform: translate(@x, @y);
+}
+
+.vertical-align(@position: absolute) {
+    position: @position;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.align-v(@position: absolute) {
+    position: @position;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.align-g(@position: absolute) {
+    position: @position;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.align(@position: absolute) {
+    position: @position;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.capitalize {
+    text-transform: lowercase;
+    &:first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.overlay-base() {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: @black;
+    opacity: 0;
+}
+
+.overlay(@speed) when (@speed = 0) {
+    .overlay-base();
+    transition: none;
+}
+
+.overlay(@speed) when (@speed > 0) {
+    .overlay-base();
+    transition: opacity @speed;
+}
+
+.bottom-overlay(@color) {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: @color;
+    opacity: 0.9;
+}
+
+.arrow-top(@color: @black, @color-inside: @white, @size: 5px, @size-inside: 3px, @position: absolute) {
+    &:before,
+    &:after {
+        content: '';
+        width:0;
+        height:0;
+        .align-g();
+    }
+    &:before {
+        border-bottom: @size solid @color;
+        border-left: @size solid transparent;
+        border-right: @size solid transparent;
+    }
+    &:after {
+        border-bottom: @size-inside solid @color-inside;
+        border-left: @size-inside solid transparent;
+        border-right: @size-inside solid transparent;
+    }
+}
+
+/*------------------------------------------------------------------
+Breakpoints
+*/
+
+@media @mobile {
+    #promo-loreal {
+        .hide-on-mobile {
+            display: none!important;
+        }
+        .only-mobile {
+            display: block;
+
+            &_inline {
+                display: inline;
+            }
+        }
+    }
+}
+
+@media @retina {
+    #promo-loreal {
+        .hide-on-retina {
+            display: none;
+        }
+        .only-retina {
+            display: block;
+        }
+    }
+}
+
+@media @tablet {
+    #promo-loreal {
+        .hide-on-tablet {
+            display: none;
+        }
+        .only-tablet {
+            display: block;
+        }
+    }
+}
+
+@media @tablet, @mobile {
+    #promo-loreal {
+        .hide-on-desktop {
+            display: block;
+        }
+
+        .only-desktop {
+            display: none !important;
+        }
+    }
+}
+
+@media @desktop {
+    #promo-loreal {
+        .only-tablet {
+            display: none;
+        }
+        .only-mobile {
+            display: none;
+        }
+        .only-retina {
+            display: none;
+        }
+    }
+}

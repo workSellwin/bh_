@@ -1,0 +1,48 @@
+.brend-detal {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	font-size: 20px;
+	margin-bottom: 40px;
+	border: 1px solid;
+}
+.brend-img {
+	min-width: 250px;
+	max-width: 250px;
+	margin-right: 10px;
+	padding-top: 13px;
+	padding-left: 13px;
+	padding-bottom: 13px;
+
+}
+.brend-text {
+	font-size: 16px;
+	padding: 13px 13px 13px 13px;
+}
+
+@media only screen and (max-width: 560px){
+
+	.brend-detal {
+		flex-direction: column
+	}
+	.brend-img {
+		margin: 0 auto;
+		min-width: 150px;
+		max-width: 150px;
+	}
+	.brend-text {
+		font-size: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 450px){
+
+	.slick-prev {
+		left: 10px!important;
+	}
+
+	.slick-next {
+		right: 10px!important;
+	}
+}

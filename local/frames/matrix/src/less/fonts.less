@@ -1,0 +1,161 @@
+.font-face(@fontName, @fontFile, @fontWeight: normal, @fontStyle: normal, @postfix: ~'') {
+    @font-face {
+        font-family: @fontName;
+        src: local(@fontName),
+        url('../../../fonts/@{fontFile}.woff2@{postfix}') format('woff2'),
+        url('../../../fonts/@{fontFile}.woff@{postfix}') format('woff'),
+        url('../../../fonts/@{fontFile}.ttf@{postfix}') format('truetype');
+        font-weight: @fontWeight;
+        font-style: @fontStyle;
+        font-display: swap;
+    }
+}
+
+.include-font(@sizeValue, @fontName, @fontResize)  when (@fontResize = false) {
+    @pxValue: @sizeValue * 10;
+    font-family: ~'@{fontName}';
+    font-size: ~'@{pxValue}px';
+}
+
+.include-font(@sizeValue, @fontName, @fontResize) when (@fontResize = true) {
+    @pxValue: @sizeValue * 10;
+    font-family: ~'@{fontName}';
+    font-size: ~'@{pxValue}px';
+
+    @media @narrowDesktop {
+        @pxValue: (unit(@sizeValue * 8));
+        font-size: ~'@{pxValue}px';
+    }
+}
+
+.include-ifont(@sizeValue, @fontName) {
+    @pxValue: @sizeValue * 10;
+    font-family: ~'@{fontName}';
+    font-weight: normal;
+    font-style: normal;
+    font-size: ~'@{pxValue}px';
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.include-ifont2(@sizeValue, @fontName) {
+    @pxValue: @sizeValue * 10;
+    font-family: ~'@{fontName}';
+    font-weight: normal;
+    font-style: normal;
+    font-size: ~'@{pxValue}px';
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+
+.font-face('rubl', 'rouble-webfont');
+
+.font-face('HelveticaNeue', 'HelveticaNeue_rus/helveticaneuecyr-roman');
+.font-face('HelveticaNeue', 'HelveticaNeue_rus/helveticaneuecyr-bold',  @fontWeight: bold);
+.font-face('HelveticaNeueThin', 'HelveticaNeue_rus/helveticaneuecyr-thin');
+.font-face('HelveticaNeueMedium', 'HelveticaNeue_rus/helveticaneuecyr-medium');
+.font-face('HelveticaNeueLight', 'HelveticaNeue_rus/helveticaneuecyr-light');
+.font-face('HelveticaNeueMediumC', 'HelveticaNeue_rus/helveticaneuecyr-cond-medium');
+.font-face('HelveticaNeueC', 'HelveticaNeue_rus/helveticaneuecyr-cond');
+.font-face('HelveticaNeueC', 'HelveticaNeue_rus/helveticaneuecyr-cond-bold', @fontWeight: bold);
+.font-face('Compotes-Citro', 'Compotes-Citro');
+.font-face('Karmina', 'Karmina');
+.font-face('CirceThin', 'Circe/CirceThin');
+.font-face('CirceMedium', 'Circe/CirceMedium');
+.font-face('CirceBold', 'Circe/CirceBold');
+.font-face('CirceExtraBold', 'Circe/CirceExtraBold');
+
+.font-face('icomatrix', 'icomatrix/fonts/icomatrix');
+
+// Helvetica Neue LT (Roman)
+.font(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeue, sans-serif', @fontResize);
+}
+// Helvetica Neue LT Thin (Light)
+.font2(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeueThin, sans-serif', @fontResize);
+}
+// Helvetica Neue LT Medium
+.font3(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeueMedium, sans-serif', @fontResize);
+}
+// Helvetica Neue LT Medium Condensed
+.font4(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeueMediumC, sans-serif', @fontResize);
+}
+// Helvetica Neue LT Condensed
+.font5(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeueC, sans-serif', @fontResize);
+}
+
+// Helvetica Neue LT Light
+.font6(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'HelveticaNeueLight, sans-serif', @fontResize);
+}
+
+// Karmina
+.karmina(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'Karmina, sans-serif', @fontResize);
+}
+
+//Compotes-Citro
+.compotes-citro(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'Compotes-Citro, sans-serif', @fontResize);
+}
+
+//Aeroflot-regular
+.aeroflot-regular(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'Aeroflot-Regular, sans-serif', @fontResize);
+}
+
+//Aeroflot-bold
+.aeroflot-bold(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'Aeroflot-Bold, sans-serif', @fontResize);
+}
+
+//Helvetica Neue Default
+.helvetica-neue(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'Helvetica Neue, Arial, sans-serif', @fontResize);
+}
+
+//CirceThin
+.circe-thin(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'CirceThin, Helvetica, sans-serif', @fontResize);
+}
+
+//CirceMedium
+.circe-medium(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'CirceMedium, Helvetica, sans-serif', @fontResize);
+}
+
+//CirceBold
+.circe-bold(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'CirceBold, Helvetica, sans-serif', @fontResize);
+}
+
+//CirceExtraBold
+.circe-extra-bold(@sizeValue, @fontResize:false) {
+    .include-font(@sizeValue, 'CirceExtraBold, Helvetica, sans-serif', @fontResize);
+}
+
+.ifont(@sizeValue) {
+    .include-ifont(@sizeValue, 'icomatrix');
+}
+
+.ifont2(@sizeValue) {
+    .include-ifont2(@sizeValue, 'icomatrix');
+}
+
+.icon-rate:before {
+    content: '\e600';
+}
+
+span.rouble {
+    font-family: 'rubl';
+    text-transform: none;
+}
+

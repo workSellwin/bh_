@@ -1,0 +1,266 @@
+@keyframes diagnostics-animation-wind {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -50*600vw 100*600vh;
+    }
+}
+
+@keyframes diagnostics-animation-wind-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50*600vw -100*600vh;
+    }
+}
+
+@keyframes diagnostics-animation-lightning {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 50*600vh;
+    }
+}
+
+@keyframes diagnostics-animation-lightning-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -50*600vh ;
+    }
+}
+
+@keyframes diagnostics-animation-rain {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100*600vh ;
+    }
+}
+
+@keyframes diagnostics-animation-rain-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -100*600vh;
+    }
+}
+
+@keyframes diagnostics-animation-star {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-star-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -100*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-curlyLight {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 200*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-curlyLight-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -200*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-curlyStrong {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 200*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-curlyStrong-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -200*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-rough {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-rough-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -100*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-zigzag {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 50*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-zigzag-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -50*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-straight {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 200*400vh;
+    }
+}
+
+@keyframes diagnostics-animation-straight-reverse {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -200*400vh;
+    }
+}
+
+.diagnostics-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: ~"calc(100% - 190px)";
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+
+    @media @mobile640 {
+        display: none;
+    }
+
+    ._layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cms-diagnostics {
+    ._layer {
+        visibility: hidden;
+
+        @media @narrow {
+            background-size: ~"calc(100vw / 1180 * 2000)" ~"calc(100vw / 1180 * 2000)";
+        }
+    }
+
+    ._wind-layer {
+        animation: diagnostics-animation-wind 8*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-wind-reverse;
+        }
+    }
+
+    ._lightning-layer {
+        animation: diagnostics-animation-lightning 4*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-lightning-reverse;
+        }
+    }
+
+    ._rain-layer {
+        animation: diagnostics-animation-rain 4*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-rain-reverse;
+        }
+    }
+
+    ._star-layer {
+        animation: diagnostics-animation-star 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-star-reverse;
+        }
+    }
+
+    ._curlyLight-layer {
+        animation: diagnostics-animation-curlyLight 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-curlyLight-reverse;
+        }
+    }
+
+    ._curlyStrong-layer {
+        animation: diagnostics-animation-curlyStrong 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-curlyStrong-reverse;
+        }
+    }
+
+    ._rough-layer {
+        animation: diagnostics-animation-rough 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-rough-reverse;
+        }
+    }
+
+    ._zigzag-layer {
+        animation: diagnostics-animation-zigzag 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-zigzag-reverse;
+        }
+    }
+
+    ._straight-layer {
+        animation: diagnostics-animation-straight 6*600s infinite linear;
+
+        .ie10 & {
+            animation-name: diagnostics-animation-straight-reverse;
+        }
+    }
+}

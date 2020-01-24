@@ -1,0 +1,604 @@
+.form {
+    &__row,
+    &__cell {
+        &:extend(.clearfix all);
+    }
+
+    &__row {
+        position: relative;
+        margin: 0 0 2.8rem;
+
+        &.hidden {
+            position: absolute;
+        }
+
+        &_certificate {
+            margin-bottom: 3.8rem;
+        }
+
+        &._in-group {
+            margin-top: -1rem !important;
+        }
+    }
+
+    &__cell {
+        position: relative;
+        float: left;
+        width: 49%;
+        &:first-child {
+            margin-right: 2%;
+        }
+    }
+
+    &__row,
+    &__cell {
+        &._prevent-scroll {
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                display: block;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                z-index: 1;
+            }
+        }
+    }
+
+    &__row_dob {
+        .select-custom {
+            float: left;
+            margin-right: 2%;
+            width: 49%;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    &__dob-title {
+        .font(1.4);
+        margin-bottom: .7rem;
+        margin-left: 1.4rem;
+    }
+
+    &__dob-optional {
+        .font(1.2);
+    }
+
+    &__input,
+    &__textarea {
+        background: transparent;
+        border: solid 1px @gray-light;
+        border-radius: 0;
+        color: #000;
+        outline: none;
+        padding: 10px 1rem;
+        width: 100%;
+        .font(1.4);
+        font-weight: normal;
+        &,
+        &.placeholdersjs {
+            .font(1.4);
+        }
+        &.placeholdersjs {
+            color: @gray-light;
+        }
+        .placeholder({ color:  @gray-light; opacity: 1; });
+    }
+
+    &__textarea {
+        resize: none;
+        display: block;
+        &_certificate {
+            height: 12.4rem;
+        }
+    }
+
+    &__checkbox {
+        position: absolute !important;
+        opacity: 0 !important;
+        top: auto !important;
+        margin-right: 0 !important;
+        font-size: 100% !important;
+        &:checked + label {
+            &:before {
+                content: '\f046';
+            }
+        }
+
+        &._hidden + label {
+            display: none !important;
+        }
+    }
+
+    &__checkbox-label {
+        margin: 0;
+        padding: 0 0 0 26px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        .font(1.4);
+        font-weight: normal;
+        letter-spacing: 0.03em;
+        color: #000;
+        line-height: 1;
+        &:before {
+            display: block;
+            .ifont(2);
+            font-weight: normal;
+            content: '\f096';
+            color: #333;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -10px;
+        }
+        &_certificate {
+            .font4(1.4);
+            &:before {
+                margin-top: -12px;
+            }
+        }
+    }
+
+    &__radio {
+        position: absolute !important;
+        opacity: 0 !important;
+        top: auto !important;
+        margin-right: 0 !important;
+        font-size: 100% !important;
+        &:checked + label {
+            &:before {
+                content: '\f192';
+            }
+        }
+        &.error + label:before {
+            color: @red;
+        }
+    }
+
+    &__radio-label {
+        margin: 0;
+        padding: 0 0 0 26px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        .font(1.4);
+        font-weight: normal;
+        letter-spacing: 0.03em;
+        color: #000;
+        line-height: 1;
+        &:before {
+            display: block;
+            .ifont(2);
+            font-weight: normal;
+            content: '\f10c';
+            color: #333;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -11px;
+        }
+
+        &._top-align {
+            &:before {
+                margin-top: -2px;
+                top: 0;
+            }
+        }
+    }
+
+    &__tip {
+        .font(1.2);
+        color: @gray-medium;
+        line-height: 1;
+        margin-top: 0.5rem;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__optional-label,
+    &__label-description-text {
+        .font(1.2);
+        display: block;
+        line-height: 1.5;
+    }
+
+    &__label-description-text {
+        margin-top: .5rem;
+    }
+
+    &__optional-label {
+        margin-top: .2rem;
+    }
+
+    &__label {
+        .font4(1.4);
+        color: @black;
+        display: block;
+
+        &_certificate {
+            width: 35%;
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        &_movable {
+            .helvetica-neue(1.4);
+            margin-top: -7px;
+            padding-left: 16px;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            height: auto;
+            line-height: 1;
+            color: #bebebe;
+            transition: .300s ease top, .300s ease font-size;
+            pointer-events: none;
+
+            @media @mobile {
+                font-size: 14px;
+            }
+
+            &._focused {
+                top: 35%;
+                font-size: 1.1rem;
+
+                @media @tablet {
+                    font-size: 12px;
+                }
+
+                @media @mobile {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    //NOTE: styles for validation in the file validation.less
+    // if move them in validation/less/index.less, then they don't work for popup at subscribe
+}
+
+.btn {
+    &:extend(.antialiased);
+    .font5(1.5);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-align: center;
+    background: @black;
+    color: @white;
+    padding: 13px 1.7rem 10px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    transition: background 0.3s ease;
+    &:hover {
+        background: #404040;
+        color: @white;
+    }
+    &.disabled {
+        opacity: .6;
+        background: @black;
+        &:hover {
+            color: @white;
+        }
+    }
+    &_full {
+        width: 100%;
+    }
+    &__customer-submit {
+        margin-top:30px;
+    }
+
+    &_last {
+        margin-top: .5rem
+    }
+
+    &_thin {
+        .font4(1.3);
+        font-weight: normal;
+        //padding: 1.5rem 1.7rem;
+    }
+    &_big {
+        //.font4(2.5);
+        //padding: 1em 1.4em .7em;
+        .font4(2);
+        padding: .9em 1.4em .7em;
+    }
+    &_red {
+        background: @red;
+        &:hover {
+            background: @red-dark;
+        }
+        &.disabled {
+            background: @red;
+        }
+    }
+    &_white {
+        background: @white;
+        color: @black;
+        &:hover {
+            background: @white;
+            color: @gray-medium;
+            //background: @black;
+            //color: @white;
+        }
+    }
+    &_certificate {
+        margin-top: 1rem;
+        padding: 1.3em 5.4em 1em;
+    }
+    &_new {
+        display: inline-block;
+        margin-bottom: 1rem;
+        padding: 14px 32px 12px 30px;
+        cursor: pointer;
+        transition: box-shadow .1s ease-in, transform .1s ease-in;
+        letter-spacing: .02rem;
+        text-transform: uppercase;
+        color: @white;
+        border: none;
+        outline: none;
+        background: @black;
+        box-shadow: 10px 10px 0 @white;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        .helvetica-neue(1.4);
+
+        @media @desktop {
+            &:hover {
+                box-shadow: 0 0 0 @white;
+                background: @black;
+                color: @white;
+            }
+        }
+
+        @media @mobile {
+            .helvetica-neue(2);
+            padding: 12px 20px;
+            letter-spacing: .06rem;
+
+            &:hover {
+                color: @white;
+            }
+        }
+    }
+
+    &_shadow-pink {
+        box-shadow: 10px 10px 0 @pink;
+
+        @media @desktop {
+            &:hover {
+                box-shadow: 0 0 0 @white;
+            }
+        }
+    }
+
+    &_search {
+        padding-right: 4.5rem;
+        position: relative;
+        &:after {
+            right: 1rem;
+            .vertical-align();
+            content: '\e901';
+            .ifont2(2.4);
+            color: #fff;
+        }
+    }
+
+    &[disabled="disabled"] {
+        background: #e5e5e5;
+        opacity: 1;
+        cursor: default;
+    }
+}
+
+.category-products {
+  .btn-more {
+    margin: 2.8rem auto 0 auto;
+
+    a {
+      margin-top: 0;
+      padding: .7em 2em .5em 2em;
+    }
+  }
+}
+
+.btn-more {
+    &:extend(.border-shadow all);
+    line-height: 1;
+    text-align: center;
+    padding: 0 0 1.5rem;
+    margin: 2.8rem 0 0;
+
+    a {
+        .helvetica-neue(1.4);
+        background: @black;
+        display: inline-block;
+        height: 40px;
+        padding: 0 1.6em .6em 2em;
+        margin-top: -1px;
+        font-weight: bold;
+        color: @white;
+        line-height: 40px;
+
+        &:after {
+            font-weight: normal;
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Breakpoints
+*/
+
+@media @desktop {
+    .form {
+        &__input:not(.form__input_no-max-height) {
+            max-height: 38px;
+        }
+    }
+}
+
+@media @noMobile {
+    .form {
+        &__row_region {
+            margin-bottom: 3.9rem;
+        }
+    }
+}
+
+@media @tablet {
+    .btn {
+        &_thin {
+            .font4(1.6);
+            //padding-top: 1.6rem;
+            //padding-bottom: 1.6rem;
+        }
+    }
+
+    .btn-more {
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .form {
+        &__optional-label,
+        &__label-description-text,
+        &__dob-optional {
+            .font(1.4);
+        }
+
+        &__label-description-text {
+            margin-top: 1rem;
+        }
+
+        &__label {
+            .font4(1.6);
+        }
+
+        &__input:not(.form__input_no-max-height) {
+            max-height: 36px;
+        }
+
+        &__checkbox-label {
+            &_certificate {
+                .font4(1.6);
+                &:before {
+                    margin-top: -1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media @mobile {
+    .form {
+        &__row {
+            margin: 0 0 3.2rem;
+        }
+
+        &__input,
+        &__textarea {
+            font-size: 11px;
+            padding: 9px 1rem 8px;
+            &,
+            &.placeholdersjs {
+                font-size: 11px;
+            }
+        }
+
+        &__dob-title {
+            font-size: 11px;
+        }
+
+        &__checkbox-label {
+            font-size: 11px;
+            &_certificate {
+                .font4(1.8);
+                line-height: 1.5;
+            }
+        }
+
+        &__radio-label {
+            font-size: 11px;
+        }
+
+        &__optional-label,
+        &__label-description-text {
+            .font(1.6);
+        }
+
+
+        &__label-description-text {
+            margin-top: 1rem;
+        }
+
+        &__label_certificate {
+            .font4(2);
+        }
+    }
+
+    .btn {
+        .font4(1.5);
+        padding: 18px 1.7rem 14px;
+        line-height: 0;
+        width: 100%;
+        &_thin {
+
+        }
+        &_big {
+            font-size: 2.5rem;
+            padding-top: 22px;
+            padding-bottom: 18px;
+        }
+        &_certificate {
+            padding: 26px 1.7rem 20px;
+        }
+        &_search {
+            &:after {
+                right: 1.5rem;
+                .ifont2(2);
+            }
+        }
+
+        &_new {
+            .helvetica-neue(2.1);
+            width: auto;
+            box-shadow: 5px 5px 0 @white;
+        }
+    }
+
+
+    .btn-more {
+        a {
+            font-size: 13px;
+        }
+    }
+}
+
+@media @mobile480 {
+    .form {
+        &__cell {
+            margin: 0 0 2.5rem;
+            float: none;
+            width: 100%;
+            &:first-child {
+                margin: 0 0 2.5rem;
+            }
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}

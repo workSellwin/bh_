@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>16698</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>19.12.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        12.00-18.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                пер. Софьи Ковалевской, дом 60, кв.830                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата на сайте банковской картой</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Дмитрий</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375293608273</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>19.12.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            Лампа светодиодная 5.5WP45/827/E27/220-240V 2700k (шарик)                                                    </td>
+                                                <td align="center">0064894572036</td>
+                        <td align="center">23</td>
+                        <td align="right" nowrap>0,85</td>
+                        <td align="right" nowrap>67,39</td>
+                        <td align="right" nowrap>19,55</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            ПРОМОНАБОР Zewa Плюс БЕЛАЯ 2 cлойная туалетная бумага 12 рул. 2 шт.                                                    </td>
+                                                <td align="center">4812194011399</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,32</td>
+                        <td align="right" nowrap>3,61</td>
+                        <td align="right" nowrap>8,32</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Лампа светодиодная 5.5W/B35/827/E14/220-240V 2700k (свеча)                                                    </td>
+                                                <td align="center">0064894571978</td>
+                        <td align="center">13</td>
+                        <td align="right" nowrap>0,95</td>
+                        <td align="right" nowrap>36,79</td>
+                        <td align="right" nowrap>12,35</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Прокладки ежедневные Libresse Dailyfresh Normal, 32 шт.                                                    </td>
+                                                <td align="center">7322540758191</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>1,96</td>
+                        <td align="right" nowrap>0,30</td>
+                        <td align="right" nowrap>3,92</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            La Roche-Posay Сыворотка увлажняющая Гиалу В5 30 мл                                                    </td>
+                                                <td align="center">3337875583626</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>78,05</td>
+                        <td align="right" nowrap>5,87</td>
+                        <td align="right" nowrap>78,05</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            La Roche-Posay Hydraphase Intense Маска для лица (1/24 биодоз) 2х6 мл                                                    </td>
+                                                <td align="center">3433422408753</td>
+                        <td align="center">4</td>
+                        <td align="right" nowrap>8,47</td>
+                        <td align="right" nowrap>2,56</td>
+                        <td align="right" nowrap>33,88</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            La Roche-Posay Тоник успокаивающий для лица 200 мл                                                    </td>
+                                                <td align="center">3337872410321</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>40,89</td>
+                        <td align="right" nowrap>3,08</td>
+                        <td align="right" nowrap>40,89</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            La Roche-Posay Nutritic Intense Крем питательный для лица для сухой и очень сухой кожи в тюбике 50 мл                                                    </td>
+                                                <td align="center">3337872413629</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>57,25</td>
+                        <td align="right" nowrap>4,31</td>
+                        <td align="right" nowrap>57,25</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            L`Oreal Professionnel Infinium Pure Strong Лак для волос 500 мл                                                    </td>
+                                                <td align="center">3474636476619</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>19,65</td>
+                        <td align="right" nowrap>1,48</td>
+                        <td align="right" nowrap>19,65</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            Matrix Total Results So Long Damage Шампунь 1 л                                                    </td>
+                                                <td align="center">3474630741171</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>23,78</td>
+                        <td align="right" nowrap>1,79</td>
+                        <td align="right" nowrap>23,78</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Сменный баллон Air Wick Fresh Matic &quot;Дикий гранат. Индия&quot;, 250 мл.                                                    </td>
+                                                <td align="center">4607109407806</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>10,30</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>10,30</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            CAMAY Парфюмированный гель для душа Вечная любовь, 230 мл                                                    </td>
+                                                <td align="center">8714100716564</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,14</td>
+                        <td align="right" nowrap>1,42</td>
+                        <td align="right" nowrap>4,14</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            Diplona шампунь YOUR NUTRITION PROFI 600 мл                                                    </td>
+                                                <td align="center">4003583135677</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>11,12</td>
+                        <td align="right" nowrap>0,84</td>
+                        <td align="right" nowrap>11,12</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Лампа светодиодная 5.5W/P45/827/E14/220-240V 2700k (шарик)                                                    </td>
+                                                <td align="center">0064894572012</td>
+                        <td align="center">4</td>
+                        <td align="right" nowrap>0,95</td>
+                        <td align="right" nowrap>11,32</td>
+                        <td align="right" nowrap>3,80</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            CLEAR VITA ABE Шампунь против перхоти Ледяная свежесть с ментолом мужской 400 мл                                                    </td>
+                                                <td align="center">8717644144466</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,86</td>
+                        <td align="right" nowrap>2,02</td>
+                        <td align="right" nowrap>5,86</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">56</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 332,86 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                8-й этаж, на входе кодовая дверь, просьба позвонить по указанному тел             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

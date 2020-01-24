@@ -1,0 +1,79 @@
+.sale-personal-section-index-block{
+	background-color:#f2f2f2;;
+	/*opacity: .5;*/
+	padding: 0;
+	margin: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #000;
+	background-size: cover;
+	border-radius: 3px;
+	height: 87%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 992px)
+{
+	.sale-personal-section-index-block {
+		height: auto;
+		margin: 8px 0;
+	}
+}
+
+
+.sale-personal-section-index-block:hover{
+	/*opacity: .8;*/
+}
+.sale-personal-section-index-block-link,
+.sale-personal-section-index-block-link:hover,
+.sale-personal-section-index-block-link:active,
+.sale-personal-section-index-block-link:focus,
+.sale-personal-section-index-block-link:visited{
+	text-decoration: none;
+	display: block;
+	padding:25px 15px;
+	color: #000;
+}
+.sale-personal-section-index-block-link{color: #000;}
+.sale-personal-section-index-block-ico {font-size: 64px;}
+.sale-personal-section-index-block-name{font-size: 16px; text-transform: none;color: #0a0a0a}
+.sale-personal-section-account-sub-header{
+	margin-top:40px;
+}
+
+.sale-personal-section-row-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+}
+.sale-personal__col{
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media only screen and (min-width: 768px){
+	.sale-personal__col{
+		width: 33.333%;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+}
+
+@media only screen and (min-width: 1340px){
+	.sale-personal__col{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+#Capa_pa{
+	width:60px;
+}

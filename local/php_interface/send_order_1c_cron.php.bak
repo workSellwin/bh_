@@ -1,0 +1,32 @@
+<?require_once($_SERVER['DOCUMENT_ROOT']. "/bitrix/modules/main/include/prolog_before.php");
+if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
+<?
+// AddMessage2Log("не запустился sendOrderAgent");
+// sendOrderAgent();
+
+CModule::IncludeModule("sale");
+$flag = false;
+$hours = date('G');
+switch ($hours) {
+	case 11:
+		$arFilter = Array("STATUS_ID" => "N", "PROPERTY_VAL_BY_CODE_PRIORITY"=>"priority-1");
+		$flag = true;
+		break;
+	case 13:
+		$arFilter = Array("STATUS_ID" => "N", "PROPERTY_VAL_BY_CODE_PRIORITY"=>"priority-2");
+		$flag = true;
+		break;
+	case 16:
+		$arFilter = Array("STATUS_ID" => "N", "PROPERTY_VAL_BY_CODE_PRIORITY"=>"priority-3");
+		$flag = true;
+		break;
+}
+if($arFilter && $flag){
+	$rsSales = CSaleOrder::GetList(array("DATE_INSERT" => "DESC"), $arFilter, false,false,array("*"));
+	while ($arSales = $rsSales->Fetch())
+	{
+		CSaleOrder::StatusOrder($arSales["ID"], "E");
+	}
+}
+AddMessage2Log("запустился крон");
+?>

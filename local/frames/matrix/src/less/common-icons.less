@@ -1,0 +1,170 @@
+.video-play-icon {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    padding: 3rem;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+    &:before {
+        content: '';
+        background: @black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .8;
+    }
+    &:after {
+        .ifont(6.4);
+        content: '\f04b';
+        color: @white;
+        position: relative;
+        display: inline-block;
+        transform: translate(.1em, 0);
+        width: 64px;
+    }
+}
+
+.date-icon {
+    line-height: 1.2em;
+    padding-right: .7rem;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:before {
+        .ifont(1.4);
+        line-height: 1.5rem;
+        content: '\f017';
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.arr-prev,
+.arr-next {
+    position: absolute;
+    top: 46%;
+    height: 33px;
+    width: 32px;
+    opacity: 1;
+    z-index: 999;
+    transition: opacity .3s;
+    &:before {
+        .ifont(3);
+        color: @black;
+    }
+    &:hover {
+        opacity: 0.4;
+    }
+}
+
+.arr-prev {
+    left: 2rem;
+    &:before {
+        content: "\f053";
+    }
+}
+
+.arr-next {
+    right: 2rem;
+    &:before {
+        content: "\f054";
+    }
+}
+
+.icon-list,
+.icon-slider {
+    display: inline-block;
+    vertical-align: middle;
+    &:before {
+        content: '';
+        display: block;
+        height: 17px;
+        width: 39px;
+        transition: all .3s;
+    }
+    &:after {
+        content: '';
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}
+
+.icon-list {
+    &:before {
+        background: url("../../../img/icon-list.svg") no-repeat center;
+    }
+    &:after {
+        background-image: url("../../../img/icon-list-red.svg");
+    }
+    &:hover,
+    &._active {
+        &:before {
+            background-image: url("../../../img/icon-list-red.svg");
+        }
+    }
+}
+
+.icon-slider {
+    &:before {
+        background-image: url("../../../img/icon-slider.svg");
+    }
+    &:after {
+        background-image: url("../../../img/icon-slider-red.svg");
+    }
+    &:hover,
+    &._active {
+        &:before {
+            background-image: url("../../../img/icon-slider-red.svg");
+        }
+    }
+}
+
+.social-icon-link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icon {
+    .ifont(1.8);
+    display: inline-block;
+    margin-right: 1rem;
+    color: #959595;
+
+    &_vk {
+        font-size: 2rem;
+        &:before {
+            content: '\F189';
+        }
+    }
+    &_facebook {
+        &:before {
+            content: '\E902';
+        }
+    }
+    &_instagram {
+        &:before {
+            content: '\E903';
+        }
+    }
+    &_topstylists {
+        width: 19px;
+        height: 19px;
+        background:url('../../../img/ico-topstylist-1.svg') no-repeat center;
+        background-size: contain;
+
+        &:hover {
+            background-image: url('../../../img/ico-topstylist_hover.svg');
+        }
+    }
+
+    &:hover {
+        color: #ccc;
+    }
+}

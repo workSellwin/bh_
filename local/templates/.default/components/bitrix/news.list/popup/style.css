@@ -1,0 +1,95 @@
+.brands-popup{
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: 0 -4px 8px rgba(0,0,0,.15);
+	box-shadow: 0 -4px 8px rgba(0,0,0,.15);
+}
+.brands-popup .brands-logo-list{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: -5px -5px 5px -5px;
+}
+.brands-popup .brands-logo-list .brands-logo{
+	display: block;
+	width: auto;
+	margin: 5px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+.brands-popup .brands-links-list{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 15px -7.5px 15px -7.5px;
+}
+.brands-popup .brands-links-list .brands__ttl-lnk{
+	display: block;
+	width: auto;
+	margin: 5px 7.5px;
+	font-size: 14px;
+}
+.brands-popup .brands-links-list .brands__ttl-lnk:hover{
+	text-decoration: underline;
+}
+.brands-popup .close{
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20baseProfile%3D%22tiny%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M100%2095.5l-4.5%204.5L50%2054.5%204.5%20100%200%2095.5%2045.5%2050%200%204.5%204.5%200%2050%2045.5%2095.5%200l4.5%204.5L54.5%2050%20100%2095.5z%22%2F%3E%3C%2Fsvg%3E');
+	background-repeat: no-repeat;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	position: absolute;
+	right: 17px;
+	top: 17px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+	.brands-popup .brands-logo-list{
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		margin-left: 0;
+		margin-right: 0;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.brands-popup .brands-logo-list .brands-logo{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.brands-popup .brands-logo-list .brands-logo img{
+		max-width: 60px;
+	}
+	.brands-popup .brands-links-list{
+		margin: 10px -7.5px 0px -7.5px;
+	}
+	.brands-popup .brands-links-list .brands__ttl-lnk{
+		font-size: 12px;
+	}
+}

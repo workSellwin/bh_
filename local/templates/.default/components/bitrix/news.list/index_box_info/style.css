@@ -1,0 +1,30 @@
+.inform-blox-index {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.item-img {
+	width: 13%;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.inform-item {
+	width: 320px;
+	display: inline-block;
+	margin: 15px auto;
+}
+.info-b {
+	display: inline-block;
+	width: 75%;
+}
+.info-name{
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.info-text {
+	font-size: 15px;
+}

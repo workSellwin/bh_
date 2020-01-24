@@ -1,0 +1,8 @@
+<?
+$MESS ['LUI_DELIVERY_DISCOUNTS_ONLINER_MODULE_NAME'] = "Выгрузка маршрутного листа";
+$MESS ['LUI_DELIVERY_DISCOUNTS_MODULE_DESCRIPTION'] = "Выгрузка маршрутного листа";
+$MESS ['LUI_DELIVERY_DISCOUNTS_PARTNER_NAME'] = "Kuzminich.Dzmitry";
+$MESS ['LUI_DELIVERY_DISCOUNTS_MESSAGESERVICE_INSTALL_TITLE'] = "Установка модуля";
+$MESS ['LUI_DELIVERY_DISCOUNTS_MESSAGESERVICE_UNINSTALL_TITLE'] = "Удаление модуля";
+$MESS ['LUI_DELIVERY_DISCOUNTS_ERROR_VERSION'] = "Версия продукта не поддерживает ядро D7";
+?>

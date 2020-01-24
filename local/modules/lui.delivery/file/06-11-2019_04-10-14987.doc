@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>14987</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Рафиева ул., дом 54, кв.100                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата наличными при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Свтлана</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375297157162</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            VICHY Гель-сыворотка МИНЕРАЛ 89 для всех типов кожи 50 мл                                                    </td>
+                                                <td align="center">3337875543248</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>43,21</td>
+                        <td align="right" nowrap>4,20</td>
+                        <td align="right" nowrap>43,21</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            VICHY NORMADERM Гель очищающий для умывания Фитосолюшн 200 мл                                                    </td>
+                                                <td align="center">3337875663076</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>32,81</td>
+                        <td align="right" nowrap>3,19</td>
+                        <td align="right" nowrap>32,81</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            VICHY NORMADERM Уход преображающий против несовершенств двойного действия Фитосолюшн 50 мл                                                    </td>
+                                                <td align="center">3337875660617</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>40,07</td>
+                        <td align="right" nowrap>3,90</td>
+                        <td align="right" nowrap>40,07</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            CeraVe SA Крем смягчяющий для сухой, огрубевшей и неровной кожи 340 г                                                    </td>
+                                                <td align="center">3337875684101</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>38,17</td>
+                        <td align="right" nowrap>3,71</td>
+                        <td align="right" nowrap>38,17</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            CeraVe Крем увлажняющий для сухой и очень сухой кожи лица и тела 340 мл                                                    </td>
+                                                <td align="center">3337875597227</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>29,06</td>
+                        <td align="right" nowrap>2,82</td>
+                        <td align="right" nowrap>29,06</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            La Roche-Posay Сыворотка ВИТАМИН С10 30 мл                                                    </td>
+                                                <td align="center">3337875660570</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>88,49</td>
+                        <td align="right" nowrap>17,22</td>
+                        <td align="right" nowrap>176,98</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            La Roche-Posay Toleriane Ultra Флюид для лица для сверхчувствительной и аллергичной кожи 40 мл                                                    </td>
+                                                <td align="center">3337872412486</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>50,41</td>
+                        <td align="right" nowrap>4,90</td>
+                        <td align="right" nowrap>50,41</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            La Roche-Posay Toleriane Ultra Fluide Эмульсия смягчающая для лица для аллергичной кожи 40 мл                                                    </td>
+                                                <td align="center">3337872414091</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>50,41</td>
+                        <td align="right" nowrap>4,90</td>
+                        <td align="right" nowrap>50,41</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            La Roche-Posay Rosaliac АR Сыворотка для лица интенсивный 40 мл                                                    </td>
+                                                <td align="center">3337872413032</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>46,12</td>
+                        <td align="right" nowrap>4,48</td>
+                        <td align="right" nowrap>46,12</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            La Roche Posay Rosaliac UV Leger Крем для лица 40 мл                                                    </td>
+                                                <td align="center">3337872413322</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>46,91</td>
+                        <td align="right" nowrap>4,56</td>
+                        <td align="right" nowrap>46,91</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            VICHY Idealia Дневной крем-уход для нормальной и комбинированной кожи 50 мл                                                    </td>
+                                                <td align="center">3337875491525</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>71,64</td>
+                        <td align="right" nowrap>6,96</td>
+                        <td align="right" nowrap>71,64</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            VICHY Idealia Ночной легкий бальзам для восстановления качества кожи Skin Sleep 50 мл                                                    </td>
+                                                <td align="center">3337871330118</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>75,07</td>
+                        <td align="right" nowrap>14,60</td>
+                        <td align="right" nowrap>150,14</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">14</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 775,93 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                Товар для рекламы вернется на склад.             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?php
+$n = $this->getNumber();
+$hasImages = $this->getHasImages();
+?>
+
+<div class="js-diagnostics-slide diagnostics-question diagnostics-question-<?php echo $n ?>"
+    <?php if($n > 1): ?>style="display: none" <?php endif ?>
+    data-number="<?php echo $n ?>"
+    data-animation='<?php echo is_array($this->getAnimation()) ? json_encode($this->getAnimation()) : $this->getAnimation() ?>'>
+
+    <div class="diagnostics__header-container">
+        <div class="diagnostics__img" style="width: <?php echo $this->getImgWidth() ?>px">
+            <img src="<?php echo $this->getSkinUrl("img/diagnostics/{$n}.svg") ?>" alt="">
+        </div>
+        <span class="diagnostics__header"><?php echo $this->getQuestion() ?></span>
+    </div>
+
+    <div class="diagnostics__answers js-diagnostics-wrapper <?php if(!$hasImages): ?>_without-images<?php endif ?>
+        <?php if(count($this->getAnswers()) == 3): ?>_three-items<?php endif ?>
+        <?php if($this->getIsSlider()): ?>_as-slider<?php endif ?>">
+
+        <?php if ($this->getIsSlider()): ?>
+            <div class="js-diagnostics-slider">
+                <div class="_trail"></div>
+            </div>
+        <?php endif ?>
+        <?php foreach ($this->getAnswers() as $idx => $answer): $i = $idx + 1; ?>
+            <div class="diagnostics__answer js-diagnostics-answer">
+                <?php if ($hasImages): ?>
+                    <div class="diagnostics__answer-img-wrapper js-diagnostics-answer-img">
+                        <img src="<?php echo $this->getSkinUrl("img/diagnostics/{$n}_{$i}.jpg") ?>"
+                             alt="" class="diagnostics__answer-img">
+                    </div>
+                <?php endif ?>
+                <input type="radio" name="question[<?php echo $n ?>]" value="<?php echo $i ?>"
+                       id="answer_<?php echo "{$n}_{$i}" ?>"
+                       class="diagnostics__answer-radio js-diagnostics-answer-radio">
+
+                <label for="answer_<?php echo "{$n}_{$i}" ?>"><span><?php echo $answer ?></span></label>
+            </div>
+        <?php endforeach ?>
+    </div>
+
+    <div class="diagnostics__buttons-container">
+        <a class="diagnostics__button diagnostics__button_next js-diagnostics-next _inactive
+            <?php if ($n == 9):?>_finish<?php endif ?>"
+            href="#"><?php if ($n == 9):?>Узнать результат<?php else: ?>Дальше<?php endif ?></a>
+
+        <?php if ($n > 1): ?><a class="diagnostics__button diagnostics__button_back js-diagnostics-back" href="#">Назад</a><?php endif ?>
+    </div>
+
+    <span class="diagnostics__counter"><?php echo $n ?> / 9</span>
+</div>

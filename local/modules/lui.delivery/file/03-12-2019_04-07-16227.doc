@@ -1,0 +1,490 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>16227</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>03.12.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Ангарская ул., дом 40, кв.62                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата наличными при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Стрельчик Василий</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375291322135</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>03.12.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            Matrix Total Results Keep Me Vivid  Кондиционер 1 л                                                    </td>
+                                                <td align="center">3474636679775</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>28,84</td>
+                        <td align="right" nowrap>2,17</td>
+                        <td align="right" nowrap>28,84</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 8AV 90 мл.                                                    </td>
+                                                <td align="center">3474630326835</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 7MG 90 мл.                                                    </td>
+                                                <td align="center">3474630326781</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 5AV 90 мл.                                                    </td>
+                                                <td align="center">3474630324749</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>1,46</td>
+                        <td align="right" nowrap>19,30</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 8MA 90 мл.                                                    </td>
+                                                <td align="center">3474636493401</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 6MA 90 мл.                                                    </td>
+                                                <td align="center">3474636493364</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 2N 90 мл.                                                    </td>
+                                                <td align="center">3474630324541</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 10MM 90 мл.                                                    </td>
+                                                <td align="center">3474630324398</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>1,46</td>
+                        <td align="right" nowrap>19,30</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            Matrix Socolor beauty Крем-краска для волос 10AV 90 мл.                                                    </td>
+                                                <td align="center">3474630324343</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            Matrix Socolor Beauty Extra.Coverage Крем-краска для волос 510N 90 мл.                                                    </td>
+                                                <td align="center">3474630703193</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,65</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>9,65</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Активатор 2,7% «Matrix Color Sync», 1000 мл.                                                    </td>
+                                                <td align="center">3474630729858</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>15,90</td>
+                        <td align="right" nowrap>1,20</td>
+                        <td align="right" nowrap>15,90</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос SPA 90 мл.                                                    </td>
+                                                <td align="center">3474630729575</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>1,92</td>
+                        <td align="right" nowrap>25,56</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос SPV 90 мл.                                                    </td>
+                                                <td align="center">3474630729506</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>1,92</td>
+                        <td align="right" nowrap>25,56</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос SPM 90 мл.                                                    </td>
+                                                <td align="center">3474630729438</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>1,92</td>
+                        <td align="right" nowrap>25,56</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 5MM 90 мл.                                                    </td>
+                                                <td align="center">3474630728738</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>16</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 6M 90 мл.                                                    </td>
+                                                <td align="center">3474630727823</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>17</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 6A 90 мл.                                                    </td>
+                                                <td align="center">3474630727618</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>18</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 7MM 90 мл.                                                    </td>
+                                                <td align="center">3474630723702</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>19</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 8V 90 мл.                                                    </td>
+                                                <td align="center">3474630722873</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>1,92</td>
+                        <td align="right" nowrap>25,56</td>
+                    </tr>
+                                        <tr>
+                        <td>20</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 9MM 90 мл.                                                    </td>
+                                                <td align="center">3474630722521</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>21</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 10M 90 мл.                                                    </td>
+                                                <td align="center">3474630722316</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>1,92</td>
+                        <td align="right" nowrap>25,56</td>
+                    </tr>
+                                        <tr>
+                        <td>22</td>
+                        <td>
+                            Matrix Color Sync Крем-краска для волос 10P 90 мл.                                                    </td>
+                                                <td align="center">3474630722033</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>12,78</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>12,78</td>
+                    </tr>
+                                        <tr>
+                        <td>23</td>
+                        <td>
+                            Обесцвечивающий порошок «Matrix Light Master» 500 гр, 50 мл.                                                    </td>
+                                                <td align="center">3474630665132</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>25,43</td>
+                        <td align="right" nowrap>3,82</td>
+                        <td align="right" nowrap>50,86</td>
+                    </tr>
+                                        <tr>
+                        <td>24</td>
+                        <td>
+                            Matrix Крем-Оксидант 10 vol - 3% 1000 мл.                                                    </td>
+                                                <td align="center">3474630497054</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>15,90</td>
+                        <td align="right" nowrap>1,20</td>
+                        <td align="right" nowrap>15,90</td>
+                    </tr>
+                                        <tr>
+                        <td>25</td>
+                        <td>
+                            Matrix Total Results High Amplify Шампунь 1 л                                                    </td>
+                                                <td align="center">3474630740297</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>23,78</td>
+                        <td align="right" nowrap>1,79</td>
+                        <td align="right" nowrap>23,78</td>
+                    </tr>
+                                        <tr>
+                        <td>26</td>
+                        <td>
+                            Matrix Vavoom ShapeMaker Cпрей моделирующий 400 мл.                                                    </td>
+                                                <td align="center">801788405960</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>17,40</td>
+                        <td align="right" nowrap>1,31</td>
+                        <td align="right" nowrap>17,40</td>
+                    </tr>
+                                        <tr>
+                        <td>27</td>
+                        <td>
+                            L`Oreal Professionnel Serie Expert Curl Contour Несмываемый крем 150 мл                                                    </td>
+                                                <td align="center">3474636502790</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>23,12</td>
+                        <td align="right" nowrap>1,74</td>
+                        <td align="right" nowrap>23,12</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">35</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 486,43 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

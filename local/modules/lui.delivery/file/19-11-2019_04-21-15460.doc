@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>15460</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>19.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Толбухина ул., дом 9а, кв.77                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата наличными при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Юлия</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375296969837</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>19.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            Бумажные полотенца Zewa Wish&amp;Weg, 2 рулона                                                    </td>
+                                                <td align="center">7322540833270</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>8,62</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>17,24</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Салфетки Бумажные Косметические Зева Делюкс Арома Коллекция 3 слоя  60 шт.                                                    </td>
+                                                <td align="center">7322541084695</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>2,40</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>7,20</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Туалетная бумага Zewa Just1, 4 слоя, 4 рулона                                                    </td>
+                                                <td align="center">7322540833140</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>5,52</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>16,56</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Бумажные полотенца Zewa Premium Декор, 4 рулона                                                    </td>
+                                                <td align="center">7322540662221</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,54</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>4,54</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            FINISH средство чистящее для посудомоечных машин с ароматом лимона 250 мл                                                    </td>
+                                                <td align="center">4640018991707</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>10,38</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>10,38</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            FINISH Quantum Max таблетки 54 шт                                                    </td>
+                                                <td align="center">4640018990335</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>47,99</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>47,99</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            MORNING FRESH средство для посуды Малина и Яблоко 900 мл                                                    </td>
+                                                <td align="center">5900998023447</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,59</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>5,59</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Средство от пятен и плесени Cillit Bang, 750 мл.                                                    </td>
+                                                <td align="center">4607109401989</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>10,29</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>10,29</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            CIF чистящее средство для кухни Сила природы 500 мл                                                    </td>
+                                                <td align="center">8714100796580</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,15</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>8,15</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            CIF чистящий крем Сила природы 450 мл                                                    </td>
+                                                <td align="center">8714100794623</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,40</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>5,40</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Полироль для мебели Pronto Антипыль и Антиаллерген, 250 мл.                                                    </td>
+                                                <td align="center">4000290903506</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>7,44</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>14,88</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            Средство для чистки мебели Pronto алое вера, 500 мл.                                                    </td>
+                                                <td align="center">4620000432067</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,44</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>7,44</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            SILCAMED Putzi зубная паста Детскаяя Клубничный йогурт 65 г                                                    </td>
+                                                <td align="center">4607075002760</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,81</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>1,81</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Детскаяя зубная паста SILCAMED со вкусом Колы 60 мл                                                    </td>
+                                                <td align="center">4607075000803</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,28</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>2,28</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">20</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 159,75 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

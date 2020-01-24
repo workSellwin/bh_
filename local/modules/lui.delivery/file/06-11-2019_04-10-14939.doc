@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>14939</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Колесникова ул., дом 27, кв.166                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата банковской картой при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Демчик Мария</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375445861861</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>06.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            FROSCH Гель для мытья посуды Красный апельсин концентрированный 500 мл                                                    </td>
+                                                <td align="center">4009175946201</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,73</td>
+                        <td align="right" nowrap>0,42</td>
+                        <td align="right" nowrap>3,73</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Чистящее средство Frosch &quot;С содой&quot;, 500 мл.                                                    </td>
+                                                <td align="center">4009175164506</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,08</td>
+                        <td align="right" nowrap>0,57</td>
+                        <td align="right" nowrap>5,08</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Средство для чистки стекла Frosch &quot;Лимон&quot;, 750 мл.                                                    </td>
+                                                <td align="center">4009175183637</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,35</td>
+                        <td align="right" nowrap>0,71</td>
+                        <td align="right" nowrap>6,35</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            Жидкое мыло для детей Frosch Baby запасной блок, 500 мл.                                                    </td>
+                                                <td align="center">4001499115998</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,47</td>
+                        <td align="right" nowrap>0,00</td>
+                        <td align="right" nowrap>4,47</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Спрей для пятен и предварительной стирки Frosch с плантаном и желчным мылом, 500 мл.                                                    </td>
+                                                <td align="center">4001499923760</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,99</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>6,99</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            Средство жидкое для стирки Frosch &quot;гранат&quot;, 2 л.                                                    </td>
+                                                <td align="center"> 4001499910807</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>14,78</td>
+                        <td align="right" nowrap>1,64</td>
+                        <td align="right" nowrap>14,78</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            FROSCH Универсальный очиститель Малина 750 мл                                                    </td>
+                                                <td align="center">4001499947537</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,49</td>
+                        <td align="right" nowrap>0,39</td>
+                        <td align="right" nowrap>3,49</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            Кондиционер для белья Frosch &quot;гранат&quot;, 1 л.                                                    </td>
+                                                <td align="center">4001499115523</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,21</td>
+                        <td align="right" nowrap>0,93</td>
+                        <td align="right" nowrap>4,21</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            Простыни впитывающие TENA Bed Normal 60x60 30 шт.                                                    </td>
+                                                <td align="center">7322540525427</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>14,18</td>
+                        <td align="right" nowrap>1,58</td>
+                        <td align="right" nowrap>14,18</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            AXE део-карандаш AXE BLACK, 50 мл                                                    </td>
+                                                <td align="center">75048099</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,72</td>
+                        <td align="right" nowrap>0,64</td>
+                        <td align="right" nowrap>5,72</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            Glade Освежитель воздуха Automatic Пряный лаунж сменн. баллон 269мл                                                    </td>
+                                                <td align="center">5000204079777</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,46</td>
+                        <td align="right" nowrap>1,05</td>
+                        <td align="right" nowrap>9,46</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            AZUR Набор салфеток из микрофибры 5 шт                                                    </td>
+                                                <td align="center">5903355097075</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,96</td>
+                        <td align="right" nowrap>0,44</td>
+                        <td align="right" nowrap>3,96</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            YORK Губка кухонная ПРЕМИУМ 5 штук                                                    </td>
+                                                <td align="center">5903355047070</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,47</td>
+                        <td align="right" nowrap>0,28</td>
+                        <td align="right" nowrap>2,47</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            Бумажные полотенца Zewa 2в1, 1 рулон                                                    </td>
+                                                <td align="center">7322540827743</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,97</td>
+                        <td align="right" nowrap>0,22</td>
+                        <td align="right" nowrap>1,97</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">14</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 86,86 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

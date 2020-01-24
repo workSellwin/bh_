@@ -1,0 +1,16 @@
+.brend-detal {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.brend-img {
+	min-width: 250px;
+	max-width: 250px;
+	margin-right: 10px;
+
+}
+.brend-text {
+	width: 700px;
+}

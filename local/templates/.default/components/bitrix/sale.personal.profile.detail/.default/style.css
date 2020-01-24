@@ -1,0 +1,11 @@
+
+.bx-sls .dropdown-fade2white{
+	top: 0 !important;
+}
+.bx-sls .dropdown-block {
+    height: 33px;
+    width: 100%;
+    border: 1px solid #000 !important;
+    text-align: left;
+    border-radius: 0 !important;
+}

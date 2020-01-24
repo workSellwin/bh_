@@ -1,0 +1,57 @@
+/*Table*/
+table.sale_personal_profile_list
+{
+	width:100%;
+	background-color:#F9FAFB;
+	border-collapse:collapse;
+	font-size:12px;
+}
+.sale-personal-profile-list-container{
+	width: 100%;
+}
+/*Table head*/
+table.sale_personal_profile_list th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+/* Table cells and heads*/
+table.sale_personal_profile_list th, table.sale_personal_profile_list td
+{
+	border:1px solid #ADC3D5;
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+.sale-personal-profile-list-arrow-up,
+.sale-personal-profile-list-arrow-down {
+	color: #d8d8d8;
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	transition: color .3s ease;
+}
+
+.sale-personal-profile-list-arrow-up:hover,
+.sale-personal-profile-list-arrow-down:hover {
+	color: #000;
+}
+
+.sale-personal-profile-list-actions {
+	min-width: 120px;
+	text-align: center;
+}
+
+.sale-personal-profile-list-actions .del-cart{
+	font-size: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sale-personal-profile-list-change-button {
+	display: inline-block;
+	vertical-align: middle;
+	transition: border-bottom .3s ease;
+}

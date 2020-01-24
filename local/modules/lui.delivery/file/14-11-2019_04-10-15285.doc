@@ -1,0 +1,1060 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title langs="ru">Товарный чек</title>
+    <style>
+        html {
+            background-color: #fff;
+        }
+
+        .header {
+            font-size: 17px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .sub_header {
+            font-size: 13px;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .date {
+            font-style: italic;
+            font-family: Tahoma;
+            padding-left: 8px;
+        }
+
+        .number {
+            font-size: 24px;
+            font-family: Tahoma;
+            font-style: italic;
+            padding-left: 8px;
+        }
+
+        .user {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+
+        .summa {
+            font-size: 12px;
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .container {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        table.t1 td.bb {
+            border-bottom: 1px solid;
+        }
+
+        table.t1 td.bb span {
+            height: 25px;
+            display: inline-block;
+            margin-bottom: -5px;
+            background-color: #fff;
+            margin-left: -5px;
+            padding-left: 5px;
+        }
+
+        table.t1 td {
+            min-width: 10px;
+        }
+
+        table.blank {
+            border-collapse: collapse;
+            width: 585px;
+        }
+
+        table.blank td {
+            border: 0.5pt solid windowtext;
+        }
+    </style>
+</head>
+
+<body bgcolor=white lang=RU style='tab-interval:35.4pt;'>
+<div class="container">
+    <br><br>
+    
+    <table>
+        <tbody>
+        <tr>
+            <td>
+            
+    <div class="logo">
+        <img src="https://bh.by/local/templates/main/images/logo_print_new.jpg" width="300" height="45" alt="">
+    </div>
+    <br>
+    <p style="text-align: left;">Товарный чек*</p>
+    <p style="text-align: left;"><b>Интернет-магазин BH.by</b></p>
+
+                <table>
+            <tbody>
+            <tr>
+                <td width="100">Номер заказа:</td>
+                <td>15285</td>
+            </tr>
+
+                            <tr>
+                    <td>Дата доставки:</td>
+                    <td>14.11.2019</td>
+                </tr>
+                                        <tr>
+                    <td>Время доставки:</td>
+                    <td>
+                        18.00-22.00                    </td>
+                </tr>
+                                                    <tr>
+                    <td>Служба доставки:</td>
+                    <td>
+                        Физ бесплатно - Доставка курьером (г. Минск)                    </td>
+                </tr>
+                                        <tr>
+                    <td>Адрес доставки:</td>
+                    <td>
+                                                Ратомская, дом 7, кв.71                    </td>
+                </tr>
+                                        <tr>
+                    <td>Способ оплаты:</td>
+                    <td>Оплата банковской картой при получении</td>
+                </tr>
+                                        <tr>
+                    <td>Имя получателя:</td>
+                    <td>Григорцевич</td>
+                </tr>
+                                        <tr>
+                    <td>Телефон:</td>
+                    <td>375296107207</td>
+                </tr>
+                                        <tr>
+                    <td>Дата доставки:</td>
+                    <td>14.11.2019</td>
+                </tr>
+                                                            </tbody>
+        </table>
+        
+        
+        </td>
+            <td width="" height="390" style="vertical-align: top;"><img src="https://bh.by/upload/doc_coupon.png" alt=""></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <br>
+                    <table class="blank" style="width: 100%">
+                <tr>
+                    <td align="center">№</td>
+                    <td align="center">Наименование</td>
+                    <td align="center">Штрих-код</td>
+                    <td align="center">Количество</td>
+                    <td align="center">Цена,</td>
+                    <td align="center">Скидка</td>
+                    <td align="center">Cумма,</td>
+                </tr>
+                                    <tr>
+                        <td>1</td>
+                        <td>
+                            Жидкий пятновыводитель для белого белья Vanish Oxi Action Кристальная белизна 1 л                                                    </td>
+                                                <td align="center">5900627027136</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,28</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>8,28</td>
+                    </tr>
+                                        <tr>
+                        <td>2</td>
+                        <td>
+                            Кондиционер для белья Frosch &quot;гранат&quot;, 1 л.                                                    </td>
+                                                <td align="center">4001499115523</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,39</td>
+                        <td align="right" nowrap>0,51</td>
+                        <td align="right" nowrap>4,39</td>
+                    </tr>
+                                        <tr>
+                        <td>3</td>
+                        <td>
+                            Кондиционер для белья Frosch &quot;Миндальное молочко&quot;, 1 л.                                                    </td>
+                                                <td align="center">4001499193255</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,39</td>
+                        <td align="right" nowrap>0,51</td>
+                        <td align="right" nowrap>4,39</td>
+                    </tr>
+                                        <tr>
+                        <td>4</td>
+                        <td>
+                            FROSCH Средство жидкое для стирки (Морские минералы), 2 л.                                                    </td>
+                                                <td align="center">4009175927583</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>15,31</td>
+                        <td align="right" nowrap>1,78</td>
+                        <td align="right" nowrap>15,31</td>
+                    </tr>
+                                        <tr>
+                        <td>5</td>
+                        <td>
+                            Средство жидкое для стирки Frosch &quot;Алое вера&quot;, 2 л.                                                    </td>
+                                                <td align="center">4001499122354</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>14,05</td>
+                        <td align="right" nowrap>1,63</td>
+                        <td align="right" nowrap>14,05</td>
+                    </tr>
+                                        <tr>
+                        <td>6</td>
+                        <td>
+                            WASHING TONE средство для стирки &quot;Роскошный черный&quot;, 1500 мл                                                    </td>
+                                                <td align="center">4812194004049</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,02</td>
+                        <td align="right" nowrap>0,70</td>
+                        <td align="right" nowrap>6,02</td>
+                    </tr>
+                                        <tr>
+                        <td>7</td>
+                        <td>
+                            911 средство для накипи 450 мл                                                    </td>
+                                                <td align="center">4812194002229</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>2,14</td>
+                        <td align="right" nowrap>0,50</td>
+                        <td align="right" nowrap>4,28</td>
+                    </tr>
+                                        <tr>
+                        <td>8</td>
+                        <td>
+                            DOSIA автомат Альпийская свежесть 5,5 кг.                                                    </td>
+                                                <td align="center">4607109401736</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>15,00</td>
+                        <td align="right" nowrap>1,74</td>
+                        <td align="right" nowrap>15,00</td>
+                    </tr>
+                                        <tr>
+                        <td>9</td>
+                        <td>
+                            DOSIA Color 5,5 кг.                                                    </td>
+                                                <td align="center">4607109401729</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>14,99</td>
+                        <td align="right" nowrap>1,75</td>
+                        <td align="right" nowrap>14,99</td>
+                    </tr>
+                                        <tr>
+                        <td>10</td>
+                        <td>
+                            Ополаскиватель для белья &quot;Washing tone&quot; &quot;Шарм осени&quot;, бутылка ПЭТ с крышкой ПП, 1000 мл                                                    </td>
+                                                <td align="center">4812194007392</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,39</td>
+                        <td align="right" nowrap>0,28</td>
+                        <td align="right" nowrap>2,39</td>
+                    </tr>
+                                        <tr>
+                        <td>11</td>
+                        <td>
+                            MORNING FRESH средство для посуды Алое Вера 450 мл                                                    </td>
+                                                <td align="center">5900998022983</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>2,63</td>
+                        <td align="right" nowrap>0,93</td>
+                        <td align="right" nowrap>7,89</td>
+                    </tr>
+                                        <tr>
+                        <td>12</td>
+                        <td>
+                            MORNING FRESH средство для посуды Лимон 450 мл                                                    </td>
+                                                <td align="center">5900998022655</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>2,64</td>
+                        <td align="right" nowrap>0,60</td>
+                        <td align="right" nowrap>5,28</td>
+                    </tr>
+                                        <tr>
+                        <td>13</td>
+                        <td>
+                            FINISH Quantum Max Лимон таблетки 54 шт                                                    </td>
+                                                <td align="center">4640018990342</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>42,99</td>
+                        <td align="right" nowrap>5,00</td>
+                        <td align="right" nowrap>42,99</td>
+                    </tr>
+                                        <tr>
+                        <td>14</td>
+                        <td>
+                            AIRWICK Pure Освежитель воздуха Сочный манго 250 мл                                                    </td>
+                                                <td align="center">3059943026117</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,91</td>
+                        <td align="right" nowrap>0,92</td>
+                        <td align="right" nowrap>7,91</td>
+                    </tr>
+                                        <tr>
+                        <td>15</td>
+                        <td>
+                            Glade Освежитель воздуха Automatic Клубничный хит сменн. баллон 269мл                                                    </td>
+                                                <td align="center">5000204079593</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>8,98</td>
+                        <td align="right" nowrap>1,05</td>
+                        <td align="right" nowrap>8,98</td>
+                    </tr>
+                                        <tr>
+                        <td>16</td>
+                        <td>
+                            Туалетная бумага Zewa Deluxe АромаСпа, 3 слоя, 8 рулонов                                                    </td>
+                                                <td align="center">7322540569483</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>6,32</td>
+                        <td align="right" nowrap>1,46</td>
+                        <td align="right" nowrap>12,64</td>
+                    </tr>
+                                        <tr>
+                        <td>17</td>
+                        <td>
+                            Туалетная бумага Zewa Deluxe Орхидея, 3 слоя, 8 рулонов                                                    </td>
+                                                <td align="center">7322540569513</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,32</td>
+                        <td align="right" nowrap>0,73</td>
+                        <td align="right" nowrap>6,32</td>
+                    </tr>
+                                        <tr>
+                        <td>18</td>
+                        <td>
+                            Туалетная бумага Zewa Deluxe Ромашка, 3 слоя, 12 рулонов                                                    </td>
+                                                <td align="center">7322540808995</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,20</td>
+                        <td align="right" nowrap>1,07</td>
+                        <td align="right" nowrap>9,20</td>
+                    </tr>
+                                        <tr>
+                        <td>19</td>
+                        <td>
+                            YORK Мешок для мусора 60 литров (20 штук) прочные                                                    </td>
+                                                <td align="center">5903355101086</td>
+                        <td align="center">6</td>
+                        <td align="right" nowrap>2,25</td>
+                        <td align="right" nowrap>1,56</td>
+                        <td align="right" nowrap>13,50</td>
+                    </tr>
+                                        <tr>
+                        <td>20</td>
+                        <td>
+                            Бумажные полотенца Zewa Premium Декор, 4 рулона                                                    </td>
+                                                <td align="center">7322540662221</td>
+                        <td align="center">3</td>
+                        <td align="right" nowrap>4,07</td>
+                        <td align="right" nowrap>1,41</td>
+                        <td align="right" nowrap>12,21</td>
+                    </tr>
+                                        <tr>
+                        <td>21</td>
+                        <td>
+                            CIF чистящее средство Лёгкость чистоты для ванной 500 мл                                                    </td>
+                                                <td align="center">8000630720233</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,30</td>
+                        <td align="right" nowrap>0,85</td>
+                        <td align="right" nowrap>7,30</td>
+                    </tr>
+                                        <tr>
+                        <td>22</td>
+                        <td>
+                            CIF чистящий крем Сила природы 450 мл                                                    </td>
+                                                <td align="center">8714100794623</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,84</td>
+                        <td align="right" nowrap>0,56</td>
+                        <td align="right" nowrap>4,84</td>
+                    </tr>
+                                        <tr>
+                        <td>23</td>
+                        <td>
+                            CIF чистящее средство для кухни Сила природы 500 мл                                                    </td>
+                                                <td align="center">8714100796580</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,30</td>
+                        <td align="right" nowrap>0,85</td>
+                        <td align="right" nowrap>7,30</td>
+                    </tr>
+                                        <tr>
+                        <td>24</td>
+                        <td>
+                            Pronto Полироль для мебели Интенсивный уход с ароматом арганового масла и амбры 250 мл                                                    </td>
+                                                <td align="center">5000204021912</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,66</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>6,66</td>
+                    </tr>
+                                        <tr>
+                        <td>25</td>
+                        <td>
+                            CLEAN TONE средство чистящее Антижир 500 мл                                                    </td>
+                                                <td align="center">4812194007132</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,42</td>
+                        <td align="right" nowrap>0,28</td>
+                        <td align="right" nowrap>2,42</td>
+                    </tr>
+                                        <tr>
+                        <td>26</td>
+                        <td>
+                            CLEAN TONE средство чистящее для холодильников 500 мл                                                    </td>
+                                                <td align="center">4812194007125</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,02</td>
+                        <td align="right" nowrap>0,23</td>
+                        <td align="right" nowrap>2,02</td>
+                    </tr>
+                                        <tr>
+                        <td>27</td>
+                        <td>
+                            CLEAN TONE пятновыводитель ковров/мебели, бутылка с триггером 500 мл                                                    </td>
+                                                <td align="center">4812194006500</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,31</td>
+                        <td align="right" nowrap>0,38</td>
+                        <td align="right" nowrap>3,31</td>
+                    </tr>
+                                        <tr>
+                        <td>28</td>
+                        <td>
+                            GLORIX СРЕДСТВО ЧИСТЯЩЕЕ ДЛЯ ПОЛА ВЕСЕННЕЕ ПРОБУЖДЕНИЕ, 1000 мл                                                    </td>
+                                                <td align="center">8714100914793</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,51</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>4,51</td>
+                    </tr>
+                                        <tr>
+                        <td>29</td>
+                        <td>
+                            ХОЗЯЮШКА  порошок чистящий универсальный Зеленое яблоко 450 гр                                                    </td>
+                                                <td align="center">4812194006821</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>1,26</td>
+                        <td align="right" nowrap>0,28</td>
+                        <td align="right" nowrap>2,52</td>
+                    </tr>
+                                        <tr>
+                        <td>30</td>
+                        <td>
+                            VANISH Gold Чистящее средство (шампунь) для ручной чистки ковров 450 мл                                                    </td>
+                                                <td align="center"> 4607109400531</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>9,18</td>
+                        <td align="right" nowrap>1,07</td>
+                        <td align="right" nowrap>9,18</td>
+                    </tr>
+                                        <tr>
+                        <td>31</td>
+                        <td>
+                            Лосьон для очистки и ухода за древесиной Emsal 250 мл                                                    </td>
+                                                <td align="center">4009175174543</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,03</td>
+                        <td align="right" nowrap>0,70</td>
+                        <td align="right" nowrap>6,03</td>
+                    </tr>
+                                        <tr>
+                        <td>32</td>
+                        <td>
+                            Средство для уборки дома Mr. Muscle Универсал &quot;Цветочное совершенство&quot;, 500 мл.                                                    </td>
+                                                <td align="center">5000204862980</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,73</td>
+                        <td align="right" nowrap>0,32</td>
+                        <td align="right" nowrap>2,73</td>
+                    </tr>
+                                        <tr>
+                        <td>33</td>
+                        <td>
+                            Средство для мебели Pronto Антипыль и Антиаллерген, 250 мл.                                                    </td>
+                                                <td align="center"> 5010182991602</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,66</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>6,66</td>
+                    </tr>
+                                        <tr>
+                        <td>34</td>
+                        <td>
+                            Полироль для мебели Pronto, 250 мл.                                                    </td>
+                                                <td align="center">5010182988657</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,66</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>6,66</td>
+                    </tr>
+                                        <tr>
+                        <td>35</td>
+                        <td>
+                            911 средство для сантехники с активным хлором Лимонная свежесть 750 мл                                                    </td>
+                                                <td align="center">4812194004902</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,62</td>
+                        <td align="right" nowrap>0,30</td>
+                        <td align="right" nowrap>2,62</td>
+                    </tr>
+                                        <tr>
+                        <td>36</td>
+                        <td>
+                            YORK Губка для мытья посуды КОЛОР ЛЮКС (в упаковке по 3 штуки)                                                    </td>
+                                                <td align="center">5903355112570</td>
+                        <td align="center">6</td>
+                        <td align="right" nowrap>1,11</td>
+                        <td align="right" nowrap>0,78</td>
+                        <td align="right" nowrap>6,66</td>
+                    </tr>
+                                        <tr>
+                        <td>37</td>
+                        <td>
+                            AZUR Мешок для стирки Стандарт/зав. (40*50)                                                    </td>
+                                                <td align="center">5901436012405</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,50</td>
+                        <td align="right" nowrap>0,41</td>
+                        <td align="right" nowrap>3,50</td>
+                    </tr>
+                                        <tr>
+                        <td>38</td>
+                        <td>
+                            AZUR Перчатки резиновые L                                                    </td>
+                                                <td align="center">5903355005995</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,59</td>
+                        <td align="right" nowrap>0,18</td>
+                        <td align="right" nowrap>1,59</td>
+                    </tr>
+                                        <tr>
+                        <td>39</td>
+                        <td>
+                            YORK Запаска для швабры Сальса                                                    </td>
+                                                <td align="center">5903355009818</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,97</td>
+                        <td align="right" nowrap>0,70</td>
+                        <td align="right" nowrap>5,97</td>
+                    </tr>
+                                        <tr>
+                        <td>40</td>
+                        <td>
+                            ХОЗЯЮШКА Салфетка вискозная перфорированная, 34x38 см, 5 шт                                                    </td>
+                                                <td align="center">4812194008474</td>
+                        <td align="center">5</td>
+                        <td align="right" nowrap>1,14</td>
+                        <td align="right" nowrap>0,65</td>
+                        <td align="right" nowrap>5,70</td>
+                    </tr>
+                                        <tr>
+                        <td>41</td>
+                        <td>
+                            ХОЗЯЮШКА Салфетка вискозная перфорированная, 34x38 см, 3 шт                                                    </td>
+                                                <td align="center">4812194008467</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>0,84</td>
+                        <td align="right" nowrap>0,18</td>
+                        <td align="right" nowrap>1,68</td>
+                    </tr>
+                                        <tr>
+                        <td>42</td>
+                        <td>
+                            ХОЗЯЮШКА Салфетка вискозная, 30x38 см, 5 шт                                                    </td>
+                                                <td align="center">4812194006722</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>1,36</td>
+                        <td align="right" nowrap>0,32</td>
+                        <td align="right" nowrap>2,72</td>
+                    </tr>
+                                        <tr>
+                        <td>43</td>
+                        <td>
+                            ХОЗЯЮШКА Салфетка абразивная, 13.3x9 см, 3 шт                                                    </td>
+                                                <td align="center">4812194006753</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>0,50</td>
+                        <td align="right" nowrap>0,12</td>
+                        <td align="right" nowrap>1,00</td>
+                    </tr>
+                                        <tr>
+                        <td>44</td>
+                        <td>
+                            AXE гель для душа КОЖА И ПЕЧЕНЬКИ 250 мл мужской                                                    </td>
+                                                <td align="center">8714100813911</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,04</td>
+                        <td align="right" nowrap>0,59</td>
+                        <td align="right" nowrap>5,04</td>
+                    </tr>
+                                        <tr>
+                        <td>45</td>
+                        <td>
+                            Шампунь-гель душ для мужчин Adidas Sport Energy 3 в 1, 250 мл.                                                    </td>
+                                                <td align="center">3614221131282</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>5,31</td>
+                        <td align="right" nowrap>1,22</td>
+                        <td align="right" nowrap>10,62</td>
+                    </tr>
+                                        <tr>
+                        <td>46</td>
+                        <td>
+                            Шампунь-гель душ для мужчин Adidas Hydra Sport 3 в 1, 250 мл.                                                    </td>
+                                                <td align="center">3607343568081</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>47</td>
+                        <td>
+                            Шампунь-гель душ для мужчин Adidas Pure Game 3 в 1, 250 мл.                                                    </td>
+                                                <td align="center">3607347395447</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>48</td>
+                        <td>
+                            Шампунь-гель душ для мужчин Adidas Active Start 3 в 1, 250 мл.                                                    </td>
+                                                <td align="center">3607340726682</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>49</td>
+                        <td>
+                            Гель для душа &quot;STR 6G Force&quot;                                                    </td>
+                                                <td align="center">5201314048169</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,91</td>
+                        <td align="right" nowrap>0,57</td>
+                        <td align="right" nowrap>4,91</td>
+                    </tr>
+                                        <tr>
+                        <td>50</td>
+                        <td>
+                            Гель для душа для женщин Adidas Skin Detox                                                    </td>
+                                                <td align="center">3607343762809</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>51</td>
+                        <td>
+                            Увлажняющее молочко для душа для женщин Adidas Protect для сухой кожи, 250 мл.                                                    </td>
+                                                <td align="center">3607347395799</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>52</td>
+                        <td>
+                            Крем-гель для душа Dove &quot;Инжир и лепестки апельсина&quot;, 250 мл                                                    </td>
+                                                <td align="center">8712561009270</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,20</td>
+                        <td align="right" nowrap>0,61</td>
+                        <td align="right" nowrap>5,20</td>
+                    </tr>
+                                        <tr>
+                        <td>53</td>
+                        <td>
+                            Увлажняющее молочко для душа &quot;Adidas Smooth&quot;, 250 мл.                                                    </td>
+                                                <td align="center">3607347395843</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>54</td>
+                        <td>
+                            ADIDAS Гель для душа Detox женский 250 мл                                                    </td>
+                                                <td align="center">3607343762809</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>55</td>
+                        <td>
+                            Увлажняющий гель для душа &quot;Adidas&quot; Vitality, 250 мл.                                                    </td>
+                                                <td align="center">3607347395645</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>56</td>
+                        <td>
+                            Гель для душа ADIDAS adipower женский 250 мл                                                    </td>
+                                                <td align="center">3614225350917</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,30</td>
+                        <td align="right" nowrap>0,62</td>
+                        <td align="right" nowrap>5,30</td>
+                    </tr>
+                                        <tr>
+                        <td>57</td>
+                        <td>
+                            Крем-гель для душа Dove &quot;Изысканное преображение&quot;                                                    </td>
+                                                <td align="center">4605922017165</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,20</td>
+                        <td align="right" nowrap>0,61</td>
+                        <td align="right" nowrap>5,20</td>
+                    </tr>
+                                        <tr>
+                        <td>58</td>
+                        <td>
+                            CLEAR VITA ABE Шампунь против перхоти для мужчин Энергия Свежести 400 мл                                                    </td>
+                                                <td align="center">4605922008132</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,41</td>
+                        <td align="right" nowrap>0,86</td>
+                        <td align="right" nowrap>7,41</td>
+                    </tr>
+                                        <tr>
+                        <td>59</td>
+                        <td>
+                            CLEAR VITA ABE Шампунь Phytotechnology для мужчин 200 мл                                                    </td>
+                                                <td align="center">8711700858328</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,12</td>
+                        <td align="right" nowrap>0,60</td>
+                        <td align="right" nowrap>5,12</td>
+                    </tr>
+                                        <tr>
+                        <td>60</td>
+                        <td>
+                            CLEAR VITA ABE Шампунь против перхоти Ледяная свежесть с ментолом мужской 400 мл                                                    </td>
+                                                <td align="center">8717644144466</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,41</td>
+                        <td align="right" nowrap>0,86</td>
+                        <td align="right" nowrap>7,41</td>
+                    </tr>
+                                        <tr>
+                        <td>61</td>
+                        <td>
+                            CLEAR VITA ABE Шампунь 2в1 для мужчин Глубокое очищение 200 мл                                                    </td>
+                                                <td align="center">8717644165546</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>5,12</td>
+                        <td align="right" nowrap>0,60</td>
+                        <td align="right" nowrap>5,12</td>
+                    </tr>
+                                        <tr>
+                        <td>62</td>
+                        <td>
+                            Шампунь питающий Dove Advanced Hair Series преображающий уход, 250 мл                                                    </td>
+                                                <td align="center">8712561493031</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,44</td>
+                        <td align="right" nowrap>0,75</td>
+                        <td align="right" nowrap>6,44</td>
+                    </tr>
+                                        <tr>
+                        <td>63</td>
+                        <td>
+                            Шампунь увлажняющий Dove Advanced Hair Series легкость кислорода, 250 мл                                                    </td>
+                                                <td align="center">8712561495295</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,44</td>
+                        <td align="right" nowrap>0,75</td>
+                        <td align="right" nowrap>6,44</td>
+                    </tr>
+                                        <tr>
+                        <td>64</td>
+                        <td>
+                            Шампунь питающий Dove Advanced Hair Series Роскошное сияние, 250 мл                                                    </td>
+                                                <td align="center">8710447232248</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,44</td>
+                        <td align="right" nowrap>0,75</td>
+                        <td align="right" nowrap>6,44</td>
+                    </tr>
+                                        <tr>
+                        <td>65</td>
+                        <td>
+                            Кондиционер для волос Dove Advanced легкость кислорода, 250 мл                                                    </td>
+                                                <td align="center">8712561495363</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,44</td>
+                        <td align="right" nowrap>0,75</td>
+                        <td align="right" nowrap>6,44</td>
+                    </tr>
+                                        <tr>
+                        <td>66</td>
+                        <td>
+                            Крем-ополаскиватель для волос Dove Advanced Преображающий уход, 250 мл                                                    </td>
+                                                <td align="center">8712561493703</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>6,44</td>
+                        <td align="right" nowrap>0,75</td>
+                        <td align="right" nowrap>6,44</td>
+                    </tr>
+                                        <tr>
+                        <td>67</td>
+                        <td>
+                            DOVE NOURISHING SECRETS Бальзам-опол. детокс с матча и рис.мол. 200 мл                                                    </td>
+                                                <td align="center">8714100757307</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,53</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>4,53</td>
+                    </tr>
+                                        <tr>
+                        <td>68</td>
+                        <td>
+                            DOVE Бальзам-ополаскиватель DOVE NOURISHING SECRETS с куркумой и кокосовым маслом, 200 мл                                                    </td>
+                                                <td align="center">8714100755365</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,53</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>4,53</td>
+                    </tr>
+                                        <tr>
+                        <td>69</td>
+                        <td>
+                            Бальзам-ополаскиватель Dove против секущихся кончиков                                                    </td>
+                                                <td align="center">4605922012641</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,53</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>4,53</td>
+                    </tr>
+                                        <tr>
+                        <td>70</td>
+                        <td>
+                            Бальзам-ополаскиватель Dove Hair Therapy Сияние цвета, 200 мл                                                    </td>
+                                                <td align="center">8718114562506</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,53</td>
+                        <td align="right" nowrap>0,53</td>
+                        <td align="right" nowrap>4,53</td>
+                    </tr>
+                                        <tr>
+                        <td>71</td>
+                        <td>
+                            Бальзам-ополаскиватель Dove Repair Therapy Объем и восстановление, 200 мл                                                    </td>
+                                                <td align="center">8718114588353</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>4,54</td>
+                        <td align="right" nowrap>1,04</td>
+                        <td align="right" nowrap>9,08</td>
+                    </tr>
+                                        <tr>
+                        <td>72</td>
+                        <td>
+                            ELSEVE Спрей для волос Двухфазный Эликсир Полное Восстановление 5  200 мл                                                    </td>
+                                                <td align="center"> 3600523086283</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>7,58</td>
+                        <td align="right" nowrap>0,88</td>
+                        <td align="right" nowrap>7,58</td>
+                    </tr>
+                                        <tr>
+                        <td>73</td>
+                        <td>
+                            LUKSJA Жидкое мыло огурец и алое вера 500 мл                                                    </td>
+                                                <td align="center">5900998007249</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,17</td>
+                        <td align="right" nowrap>0,48</td>
+                        <td align="right" nowrap>4,17</td>
+                    </tr>
+                                        <tr>
+                        <td>74</td>
+                        <td>
+                            LUKSJA Essence Жидкое мыло жасмин и ваниль (наполнитель) 400 мл                                                    </td>
+                                                <td align="center">5900998007270</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,83</td>
+                        <td align="right" nowrap>0,33</td>
+                        <td align="right" nowrap>2,83</td>
+                    </tr>
+                                        <tr>
+                        <td>75</td>
+                        <td>
+                            LUKSJA Жидкое мыло жасмин и ваниль 500 мл                                                    </td>
+                                                <td align="center">5900998007232</td>
+                        <td align="center">2</td>
+                        <td align="right" nowrap>4,17</td>
+                        <td align="right" nowrap>0,96</td>
+                        <td align="right" nowrap>8,34</td>
+                    </tr>
+                                        <tr>
+                        <td>76</td>
+                        <td>
+                            LUKSJA Жидкое мыло цветок вишни и пион 500 мл                                                    </td>
+                                                <td align="center">5900998007256</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>4,17</td>
+                        <td align="right" nowrap>0,48</td>
+                        <td align="right" nowrap>4,17</td>
+                    </tr>
+                                        <tr>
+                        <td>77</td>
+                        <td>
+                            SILCAMED зубная паста отбеливающая Альпийские травы 150 г                                                    </td>
+                                                <td align="center">4607075003385</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,87</td>
+                        <td align="right" nowrap>0,22</td>
+                        <td align="right" nowrap>1,87</td>
+                    </tr>
+                                        <tr>
+                        <td>78</td>
+                        <td>
+                            Зубная паста SILCAMED Professional гелевая &quot;Лаванда&quot;, 90 мл                                                    </td>
+                                                <td align="center">4607075001909</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,97</td>
+                        <td align="right" nowrap>0,35</td>
+                        <td align="right" nowrap>2,97</td>
+                    </tr>
+                                        <tr>
+                        <td>79</td>
+                        <td>
+                            Зубная паста SILCAMED 5 плюсов Здоровые десны                                                    </td>
+                                                <td align="center">4607075002623</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>1,85</td>
+                        <td align="right" nowrap>0,21</td>
+                        <td align="right" nowrap>1,85</td>
+                    </tr>
+                                        <tr>
+                        <td>80</td>
+                        <td>
+                            Зубная паста SILCAMED Зимняя ягода                                                    </td>
+                                                <td align="center">4607075001497</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,11</td>
+                        <td align="right" nowrap>0,36</td>
+                        <td align="right" nowrap>3,11</td>
+                    </tr>
+                                        <tr>
+                        <td>81</td>
+                        <td>
+                            Зубная паста SILCAMED Антитабак                                                    </td>
+                                                <td align="center">4607075001589</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,70</td>
+                        <td align="right" nowrap>0,31</td>
+                        <td align="right" nowrap>2,70</td>
+                    </tr>
+                                        <tr>
+                        <td>82</td>
+                        <td>
+                            Зубная паста SILCAMED Витаминный комплекс                                                    </td>
+                                                <td align="center">4607075002319</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>2,97</td>
+                        <td align="right" nowrap>0,35</td>
+                        <td align="right" nowrap>2,97</td>
+                    </tr>
+                                        <tr>
+                        <td>83</td>
+                        <td>
+                            Зубная паста SILCAMED Crystal White, 75 мл                                                    </td>
+                                                <td align="center">4607075002838</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>3,40</td>
+                        <td align="right" nowrap>0,39</td>
+                        <td align="right" nowrap>3,40</td>
+                    </tr>
+                                        <tr>
+                        <td>84</td>
+                        <td>
+                            L'Oreal  Тушь для ресниц ОБЪЕМ МИЛЛИОНА РЕСНИЦ Feline Взгляд кошки для объема и разделения                                                    </td>
+                                                <td align="center">3600523691258</td>
+                        <td align="center">1</td>
+                        <td align="right" nowrap>19,47</td>
+                        <td align="right" nowrap>2,27</td>
+                        <td align="right" nowrap>19,47</td>
+                    </tr>
+                                    <tr>
+                    <td colspan="3">Итого позиций:</td>
+                    <td align="center">112</td>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+                            <p style="text-align: right;">Итого по чеку: 548,16 руб.</p>
+                        <table style="width: 100%;" class="t1">
+                <tbody>
+                <tr>
+                    <td class="bb"><span>Дата продажи:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Сумма коррекции:</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="bb"><span>Итого с коррекцией:</span></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bb"><span>Подпись покупателя**:</span></td>
+                    <td></td>
+                    <td class="bb"><span>Подпись продавца:</span></td>
+                </tr>
+                </tbody>
+            </table>
+            
+           
+    </p> 
+        <table style="width: 100%;">
+        <thead>
+        <tr>
+            <td>Комментарий к заказу</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 1px solid #000;padding: 10px;min-height: 60px;display: block;">
+                             
+             </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

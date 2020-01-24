@@ -1,0 +1,329 @@
+/*.h__cart-prod:hover{
+	text-decoration: none;
+}
+.h__cart .item-prod{
+	position: relative;
+	padding-right: 10px;
+}
+
+
+.bx-basket-item-list-item-remove {
+	position: absolute;
+	content: "x";
+	width: 10px;
+	height: 10px;
+	right: 5px;
+	top: 3px;
+	font-size: 15px;
+	color: #000;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAMAAADzjKfhAAAAJFBMVEX///8yMjI6Ojpvb29wcHCEhISHh4eIiIiqqqqtra2wsLCxsbE3yvJ6AAAAAXRSTlMAQObYZgAAACxJREFUCNcFwYEBgCAMA7BYUMb2/78m9sXdJtfNMHkzcJ4DlS9FpXXKavT6ARdgANGqCJ38AAAAAElFTkSuQmCC) no-repeat center;
+	opacity: .5;
+	cursor: pointer;
+}
+.bx-basket-item-list-item-remove:hover{
+	opacity: .8;
+}
+.h__cart .bx-basket-item-list-item-price-old {
+	text-decoration: line-through;
+}*/
+/*.left-menu__lnk.no-ico:before{
+	background-image: none;
+}*/
+
+.salon-btn-wrp {
+	margin-top: 15px;
+	border-top: 1px solid #000;
+	padding-top: 15px;
+}
+.salon-btn-wrp a {
+	font-weight: 600;
+	position: relative;
+}
+.salon-btn-wrp a:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: -30px;
+	margin-top: -11px;
+	background-image: url(images/sprite.png);
+	background-position: -23px -110px;
+	width: 21px;
+	height: 22px;
+}
+.bx-filter-parameters-box.bx-active{
+	background-color: transparent !important;
+	color: #000 !important;
+}
+#modef{
+	/*display: none !important;*/
+}
+.prod__big-img__item img {
+	max-height: 518px;
+	max-width: 100%;
+}
+.bx-red .btn.btn-default, .bx-blue .btn.btn-default{
+	cursor: pointer;
+	background-color: #000 !important;
+	border-color: #000 !important;
+}
+a.bx-soa-editstep {
+	color: #000;
+}
+.favorites-lnk{
+	z-index: 1;
+}
+.bx-section-desc {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.prod__right .product-item-scu-item-color img {
+	max-height: 100px;
+	font-size: 12px;
+}
+div.btn_border{
+	margin: 0 auto;
+	width: 220px;
+	display: block;
+	text-align: center;
+}
+.prod__btn-wrp .btn_in_basket{
+	margin-bottom: 4px;
+}
+.product-item-image-alternative{
+	display: none !important;
+}
+/*.bx-no-touch .prod__item-container::hover {
+	position: relative;
+	z-index: 3;
+}
+.prod__item-container:hover .prod__hiden{
+	display:block;
+}*/
+.one-click_text-form {
+	color: #e80202;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+.one-click-form__result{
+	padding: 25px 50px 34px;
+}
+
+.news-detail-page .detail-picture{
+	margin-bottom: 45px;
+}
+.news-detail-page .btn-location{
+	margin: 45px auto 0 auto;
+	display: block;
+	max-width: 300px;
+}
+
+.bx-section-desc ul li {
+	list-style-type: disc;
+}
+
+.bx-section-desc ol li {
+	list-style-type: decimal;
+}
+
+.bx-section-desc ul,
+.bx-section-desc ol {
+	padding-left: 15px;
+}
+.video-block {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-block iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-block-section {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.container-entry-points {
+	display: none;
+}
+
+
+.header_mobile_ico {
+	height: 19px;
+	position: fixed;
+	cursor: pointer;
+	z-index: 11;
+	display: none;
+	top: 20px;
+	right: 50px;
+	margin-right: 10px;
+}
+
+.cont_mobile_ico{
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.header_mobile_ico .mobile-search{
+	background-position: -23px -110px;
+}
+.header_mobile_ico .login_white{
+	background-position: -142px 0px;
+}
+
+.header_mobile_ico .cart_white{
+	background-position: -143px -50px;;
+}
+
+.header_mobile_ico .cart-wrp{
+	margin-right: 7px;
+}
+
+@media only screen and (max-width: 480px) {
+	.h__center .logo-small {
+		position: relative;
+		top: 2px;
+		display: inline-block!important;
+		vertical-align: middle;
+		font-size: 13px;
+		line-height: 34px;
+		text-decoration: none;
+		margin-left: -125px!important;
+		border-radius: 27px;
+		width: 317px;
+		font-weight: 900;
+		font-family: none;
+	}
+	.h__center .logo {
+
+		margin-left: -125px!important;
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.header_mobile_ico {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+
+	.header_mobile_ico{
+		display: inline-block;
+	}
+
+	.container-entry-points {
+		background: #efefef;
+		display: block;
+		position: -webkit-sticky;
+		position: sticky;
+		bottom: 0;
+		min-height: 2em;
+		z-index: 9;
+	}
+
+	.entry-points {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		font-family: Ozon Open Sans, Arial, sans-serif;
+		background: #efefef;
+	}
+
+	.entry-points a {
+		width: 25%;
+	}
+
+	.entry-points .image {
+		position: relative;
+		border-radius: 50%;
+		margin: 0 auto 10px;
+		overflow: hidden;
+		line-height: 0;
+		width: 65px;
+		height: 65px;
+	}
+
+	.entry-points .container {
+		height: 100%;
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.entry-point-item img {
+		width: 100%;
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.entry-points .entry-point-item {
+		display: block;
+		text-decoration: none;
+		color: #9aa0a3;
+		width: 25%;
+		position: relative;
+		top: -18px;
+	}
+
+	.entry-points .entry-point-item .name {
+		font-size: 12px;
+		line-height: 16px;
+		text-align: center;
+	}
+}
+
+
+.login-active {
+	width: 26px!important;
+	height: 25px!important;
+	display: inline-block!important;
+	vertical-align: middle!important;
+	background-position: -18px -25px!important;
+	background: url(../.default/images/key11.png)!important;
+	background-size: 95%!important;
+	background-repeat: no-repeat!important;
+	background-position: 0px -3px!important;
+}
+
+.no-active{
+	width: 26px!important;
+	height: 25px!important;
+	display: inline-block!important;
+	vertical-align: middle!important;
+	background-position: -18px -25px!important;
+	background: url(../.default/images/nokey.png)!important;
+	background-size: 95%!important;
+	background-repeat: no-repeat!important;
+	background-position: 0px -3px!important;
+}
+.prod__right .payments {
+    width: 300px;
+}

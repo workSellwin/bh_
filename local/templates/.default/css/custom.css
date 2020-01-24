@@ -1,0 +1,226 @@
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.calendar-block .item-title .slider-button {
+    color: #fff;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.calendar-block .item-title .name {
+    margin: 0 20px;
+}
+
+.calendar-block .item-title {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.calendar-block .table th {
+    vertical-align: top;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+    background: #000000;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.calendar-block .table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.calendar-block tbody tr td {
+    color: #c7c7c7;
+    text-align: center;
+}
+
+.calendar-block .table td {
+    padding: 10px 10px;
+    border: 1px solid #c7c7c7;
+    vertical-align: top;
+}
+
+.calendar-block .table td b {
+    font-weight: 600;
+    color: #000;
+}
+
+.calendar-block .item {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.calendar-block {
+    flex-wrap: wrap;
+}
+
+.calendar-block .title-day td {
+    color: #000;
+}
+
+@media only screen and (min-width: 640px) {
+    .calendar-block .item {
+        margin-bottom: 0px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .prod-status .prod-status__item img {
+        width: 25px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .calendar-block .item {
+        padding: 24px 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .calendar-block .table td {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .calendar-block .item {
+        padding: 20px 20px;
+    }
+
+    /*.calendar-block{
+        flex-wrap: nowrap;
+    }*/
+}
+
+
+#bx-soa-total-mobile .btn.btn-default.btn-lg.btn-order-save:first-child {
+    display: none;
+}
+
+.product-item-scu-item-color {
+    background-repeat: round;
+}
+
+
+.instagram-slider-container .slick-prev {
+    left: -50px;
+}
+
+.instagram-slider-container .slick-next {
+    right: -50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .instagram-slider-container .slick-next {
+        background-position: -163px -70px;
+        right: 0px;
+    }
+
+    .instagram-slider-container .slick-prev {
+        left: 0px;
+        background-position: -163px -84px;
+    }
+
+    .instagram-slider-container .slick-prev, .instagram-slider-container .slick-next {
+        width: 7px;
+        height: 12px;
+        margin-top: -6px;
+    }
+}
+
+
+.btn_ico:hover {
+    background-color: #bde850;
+    border: 1px solid #bde850;
+}
+
+.product-item-detail-buy-button:hover {
+    background-color: #bde850;
+}
+
+@media only screen and (min-width: 1600px) {
+    .brend-novinki-slider-container-10 .slick-next {
+        right: -14px;
+    }
+
+    .brend-novinki-slider-container-10 .slick-prev {
+        left: -14px;
+    }
+
+    .brend-novinki-slider-container-1 .slick-next {
+        right: -14px;
+    }
+
+    .brend-novinki-slider-container-1 .slick-prev {
+        left: -14px;
+    }
+
+    .brend-novinki-slider-container-2 .slick-next {
+        right: -14px;
+    }
+
+    .brend-novinki-slider-container-2 .slick-prev {
+        left: -14px;
+    }
+
+    .brend-novinki-slider-container-3 .slick-next {
+        right: -14px;
+    }
+
+    .brend-novinki-slider-container-3 .slick-prev {
+        left: -14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mobile-menu-social.flex-container {
+        display: none;
+    }
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod__right .product-item-scu-item-color-container[data-onevalue="4750"],
+.product__list .product-item-scu-item-color-container[data-onevalue="4750"] {
+    display: none;
+}
+
+a.brandImg {
+    display: table-cell;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+}
